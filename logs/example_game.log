@@ -1,0 +1,178 @@
+[2024-01-15 14:30:00] [INFO] =====================================
+[2024-01-15 14:30:00] [INFO]      CHROMATIC ALCHEMIST v1.0
+[2024-01-15 14:30:00] [INFO] =====================================
+[2024-01-15 14:30:00] [INFO] Starting application...
+[2024-01-15 14:30:00] [INFO] Java Version: 17.0.2
+[2024-01-15 14:30:00] [INFO] JavaFX launching...
+[2024-01-15 14:30:01] [INFO] GameLogger initialized
+[2024-01-15 14:30:01] [INFO] GameEventManager initialized (Singleton)
+[2024-01-15 14:30:01] [INFO] GameController initialized
+[2024-01-15 14:30:01] [INFO] GameView initialized
+[2024-01-15 14:30:01] [INFO] JavaFX Application started successfully
+[2024-01-15 14:30:01] [INFO] Game state change: * -> MENU
+[2024-01-15 14:30:01] [INFO] Game loop started
+
+[2024-01-15 14:30:05] [INFO] Starting new game...
+[2024-01-15 14:30:05] [INFO] Entity created: PLAYER at position (512.0, 600.0)
+[2024-01-15 14:30:05] [INFO] Player initial state: FIRE
+[2024-01-15 14:30:05] [INFO] Level 1 generated: Tutorial - The First Transmutation
+[2024-01-15 14:30:05] [INFO] Chamber created: Tutorial Chamber (Simple) at (50, 50) size 924x668
+[2024-01-15 14:30:05] [INFO] Entity created: ESSENCE_PARTICLE RED at (200.0, 200.0)
+[2024-01-15 14:30:05] [INFO] Entity created: ESSENCE_PARTICLE RED at (300.0, 250.0)
+[2024-01-15 14:30:05] [INFO] Entity created: ESSENCE_PARTICLE ORANGE at (400.0, 200.0)
+[2024-01-15 14:30:05] [INFO] Entity created: ESSENCE_PARTICLE ORANGE at (500.0, 300.0)
+[2024-01-15 14:30:05] [INFO] Entity created: POWERUP SPEED_BOOST at (600.0, 400.0)
+[2024-01-15 14:30:05] [INFO] Level 1 started: Tutorial - The First Transmutation
+[2024-01-15 14:30:05] [INFO] Recipe initialized: Fire Essence (requires 3 RED, 2 ORANGE)
+[2024-01-15 14:30:05] [INFO] Game state change: MENU -> PLAYING
+[2024-01-15 14:30:05] [INFO] Event fired: GAME_STARTED
+
+[2024-01-15 14:30:08] [INFO] Collision: PLAYER with ESSENCE_PARTICLE
+[2024-01-15 14:30:08] [INFO] Essence collected: RED (+10 points)
+[2024-01-15 14:30:08] [INFO] Recipe progress: Fire Essence - RED: 1/3
+[2024-01-15 14:30:08] [INFO] Event fired: ESSENCE_COLLECTED {color=RED, points=10}
+[2024-01-15 14:30:08] [INFO] Event fired: SCORE_CHANGED {score=10, delta=10}
+
+[2024-01-15 14:30:10] [INFO] Collision: PLAYER with ESSENCE_PARTICLE
+[2024-01-15 14:30:10] [INFO] Essence collected: RED (+10 points)
+[2024-01-15 14:30:10] [INFO] Recipe progress: Fire Essence - RED: 2/3
+[2024-01-15 14:30:10] [INFO] Event fired: ESSENCE_COLLECTED {color=RED, points=10}
+[2024-01-15 14:30:10] [INFO] Event fired: SCORE_CHANGED {score=20, delta=10}
+
+[2024-01-15 14:30:12] [INFO] Collision: PLAYER with POWERUP
+[2024-01-15 14:30:12] [INFO] Power-up collected: SPEED_BOOST
+[2024-01-15 14:30:12] [INFO] Decorator added: SpeedBoost (duration: 10.0s)
+[2024-01-15 14:30:12] [INFO] Player speed modified: 200.0 -> 300.0
+[2024-01-15 14:30:12] [INFO] Event fired: POWERUP_COLLECTED {type=SPEED_BOOST}
+[2024-01-15 14:30:12] [INFO] Event fired: DECORATOR_ADDED {name=SpeedBoost, duration=10.0}
+
+[2024-01-15 14:30:15] [INFO] Special ability used: BURST (Fire state)
+[2024-01-15 14:30:15] [INFO] Player speed burst activated for 2.0 seconds
+[2024-01-15 14:30:15] [INFO] Event fired: ABILITY_USED {ability=BURST, state=FIRE}
+
+[2024-01-15 14:30:17] [INFO] Ability effect ended: BURST
+[2024-01-15 14:30:17] [INFO] Player speed returned to normal
+
+[2024-01-15 14:30:20] [INFO] Collision: PLAYER with ESSENCE_PARTICLE
+[2024-01-15 14:30:20] [INFO] Essence collected: ORANGE (+15 points)
+[2024-01-15 14:30:20] [INFO] Recipe progress: Fire Essence - ORANGE: 1/2
+[2024-01-15 14:30:20] [INFO] Event fired: ESSENCE_COLLECTED {color=ORANGE, points=15}
+
+[2024-01-15 14:30:22] [INFO] Decorator expired: SpeedBoost
+[2024-01-15 14:30:22] [INFO] Player speed returned: 300.0 -> 200.0
+[2024-01-15 14:30:22] [INFO] Event fired: DECORATOR_EXPIRED {name=SpeedBoost}
+
+[2024-01-15 14:30:25] [INFO] Player state change: FIRE -> WATER
+[2024-01-15 14:30:25] [INFO] Player can now absorb: BLUE, CYAN
+[2024-01-15 14:30:25] [INFO] Event fired: STATE_CHANGED {from=FIRE, to=WATER}
+
+[2024-01-15 14:30:28] [INFO] Cannot absorb: ORANGE (incompatible with WATER state)
+[2024-01-15 14:30:28] [WARN] Player tried to absorb incompatible essence
+
+[2024-01-15 14:30:30] [INFO] Player state change: WATER -> FIRE
+[2024-01-15 14:30:30] [INFO] Player can now absorb: RED, ORANGE
+[2024-01-15 14:30:30] [INFO] Event fired: STATE_CHANGED {from=WATER, to=FIRE}
+
+[2024-01-15 14:30:33] [INFO] Collision: PLAYER with ESSENCE_PARTICLE
+[2024-01-15 14:30:33] [INFO] Essence collected: RED (+10 points)
+[2024-01-15 14:30:33] [INFO] Recipe progress: Fire Essence - RED: 3/3 (COMPLETE!)
+[2024-01-15 14:30:33] [INFO] Event fired: ESSENCE_COLLECTED {color=RED, points=10}
+
+[2024-01-15 14:30:36] [INFO] Collision: PLAYER with ESSENCE_PARTICLE
+[2024-01-15 14:30:36] [INFO] Essence collected: ORANGE (+15 points)
+[2024-01-15 14:30:36] [INFO] Recipe completed: Fire Essence
+[2024-01-15 14:30:36] [INFO] Bonus points awarded: +100
+[2024-01-15 14:30:36] [INFO] Event fired: RECIPE_COMPLETED {recipe=Fire Essence, bonus=100}
+
+[2024-01-15 14:30:36] [INFO] Level 1 completed!
+[2024-01-15 14:30:36] [INFO] Level completion time: 31.0 seconds
+[2024-01-15 14:30:36] [INFO] Level score: 265 points
+[2024-01-15 14:30:36] [INFO] Event fired: LEVEL_COMPLETED {level=1, score=265, time=31.0}
+
+[2024-01-15 14:30:38] [INFO] Loading Level 2: Dual Chambers
+[2024-01-15 14:30:38] [INFO] Chamber created: Dual World (Compound) at (50, 50) size 924x668
+[2024-01-15 14:30:38] [INFO] Chamber created: Fire Chamber (Simple) at (50, 50) size 437x668
+[2024-01-15 14:30:38] [INFO] Chamber created: Water Chamber (Simple) at (537, 50) size 437x668
+[2024-01-15 14:30:38] [INFO] Composite structure: Dual World contains 2 child chambers
+[2024-01-15 14:30:38] [INFO] Level 2 started: Dual Chambers
+[2024-01-15 14:30:38] [INFO] Event fired: LEVEL_STARTED {level=2, name=Dual Chambers}
+
+[2024-01-15 14:30:45] [INFO] Player entered: Water Chamber
+[2024-01-15 14:30:45] [INFO] Event fired: CHAMBER_ENTERED {chamber=Water Chamber}
+
+[2024-01-15 14:30:48] [INFO] Collision: PLAYER with OBSTACLE
+[2024-01-15 14:30:48] [INFO] Player damaged by STATIC obstacle: -10 HP
+[2024-01-15 14:30:48] [INFO] Player health: 100 -> 90
+[2024-01-15 14:30:48] [INFO] Player invincibility started (1.0s)
+[2024-01-15 14:30:48] [INFO] Event fired: PLAYER_DAMAGED {damage=10, health=90, source=OBSTACLE}
+
+[2024-01-15 14:30:50] [INFO] Collision: PLAYER with POWERUP
+[2024-01-15 14:30:50] [INFO] Power-up collected: SHIELD
+[2024-01-15 14:30:50] [INFO] Decorator added: Shield (duration: 8.0s)
+[2024-01-15 14:30:50] [INFO] Player damage reduction: 50%
+[2024-01-15 14:30:50] [INFO] Event fired: POWERUP_COLLECTED {type=SHIELD}
+[2024-01-15 14:30:50] [INFO] Event fired: DECORATOR_ADDED {name=Shield, duration=8.0}
+
+[2024-01-15 14:30:55] [INFO] Special ability used: FLOW (Water state)
+[2024-01-15 14:30:55] [INFO] Player can now phase through obstacles for 3.0 seconds
+[2024-01-15 14:30:55] [INFO] Event fired: ABILITY_USED {ability=FLOW, state=WATER}
+
+[2024-01-15 14:30:58] [INFO] Phasing through obstacle: MOVING type
+[2024-01-15 14:30:58] [INFO] No collision damage (phasing active)
+
+[2024-01-15 14:31:05] [INFO] Decorator expired: Shield
+[2024-01-15 14:31:05] [INFO] Player damage reduction removed
+[2024-01-15 14:31:05] [INFO] Event fired: DECORATOR_EXPIRED {name=Shield}
+
+[2024-01-15 14:31:30] [INFO] All recipes completed for Level 2
+[2024-01-15 14:31:30] [INFO] Level 2 completed!
+[2024-01-15 14:31:30] [INFO] Level completion time: 52.0 seconds
+[2024-01-15 14:31:30] [INFO] Level score: 580 points
+[2024-01-15 14:31:30] [INFO] Event fired: LEVEL_COMPLETED {level=2, score=580, time=52.0}
+
+[2024-01-15 14:31:32] [INFO] Loading Level 3: Four Elements
+[2024-01-15 14:31:32] [INFO] Level 3 started: Four Elements
+
+[2024-01-15 14:32:45] [INFO] Level 3 completed!
+
+[2024-01-15 14:32:48] [INFO] Loading Level 4: Nested Chambers
+[2024-01-15 14:32:48] [INFO] Chamber created: Grand Chamber (Compound) at (50, 50) size 924x668
+[2024-01-15 14:32:48] [INFO] Chamber created: North Wing (Compound) at (50, 50) size 924x309
+[2024-01-15 14:32:48] [INFO] Chamber created: Fire Room (Simple) at (50, 50) size 437x309
+[2024-01-15 14:32:48] [INFO] Chamber created: Water Room (Simple) at (537, 50) size 437x309
+[2024-01-15 14:32:48] [INFO] Chamber created: South Wing (Compound) at (50, 409) size 924x309
+[2024-01-15 14:32:48] [INFO] Chamber created: Earth Room (Simple) at (50, 409) size 437x309
+[2024-01-15 14:32:48] [INFO] Chamber created: Air Room (Simple) at (537, 409) size 437x309
+[2024-01-15 14:32:48] [INFO] Composite hierarchy depth: 3 levels
+[2024-01-15 14:32:48] [INFO] Total essences in hierarchy: 45
+[2024-01-15 14:32:48] [INFO] Level 4 started: Nested Chambers
+
+[2024-01-15 14:34:20] [INFO] Level 4 completed!
+
+[2024-01-15 14:34:22] [INFO] Loading Level 5: Final Challenge
+[2024-01-15 14:34:22] [INFO] Level 5 started: Final Challenge - Master of Elements
+
+[2024-01-15 14:36:50] [INFO] All recipes completed for Level 5
+[2024-01-15 14:36:50] [INFO] Level 5 completed!
+[2024-01-15 14:36:50] [INFO] Event fired: LEVEL_COMPLETED {level=5, score=2450, time=148.0}
+
+[2024-01-15 14:36:50] [INFO] =====================================
+[2024-01-15 14:36:50] [INFO]           VICTORY!
+[2024-01-15 14:36:50] [INFO] =====================================
+[2024-01-15 14:36:50] [INFO] Game completed!
+[2024-01-15 14:36:50] [INFO] Final Score: 4580 points
+[2024-01-15 14:36:50] [INFO] Total Time: 6 minutes 45 seconds
+[2024-01-15 14:36:50] [INFO] Essences Collected: 187
+[2024-01-15 14:36:50] [INFO] Power-ups Used: 23
+[2024-01-15 14:36:50] [INFO] State Transmutations: 45
+[2024-01-15 14:36:50] [INFO] Special Abilities Used: 28
+[2024-01-15 14:36:50] [INFO] Game state change: PLAYING -> VICTORY
+[2024-01-15 14:36:50] [INFO] Event fired: GAME_VICTORY {score=4580, time=405.0}
+
+[2024-01-15 14:36:55] [INFO] Player returned to main menu
+[2024-01-15 14:36:55] [INFO] Game state change: VICTORY -> MENU
+
+[2024-01-15 14:37:00] [INFO] Window close requested
+[2024-01-15 14:37:00] [INFO] Game loop stopped
+[2024-01-15 14:37:00] [INFO] JavaFX Application stopping...
+[2024-01-15 14:37:00] [INFO] Application terminated gracefully

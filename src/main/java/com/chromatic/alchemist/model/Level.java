@@ -1,0 +1,92 @@
+package com.chromatic.alchemist.model;
+
+import com.chromatic.alchemist.model.composite.*;
+import com.chromatic.alchemist.model.entity.Player;
+
+import java.util.ArrayList;
+import java.util.List;
+
+/**
+ * Level class representing a game level.
+ * Uses the Composite pattern with ChamberComponent as the structure.
+ */
+public class Level {
+    
+    private final int levelNumber;
+    private final String name;
+    private final ChamberComponent rootChamber;
+    private final List<Recipe> recipes;
+    private double playerStartX;
+    private double playerStartY;
+    private boolean completed;
+    
+    /**
+     * Creates a new level.
+     * 
+     * @param levelNumber The level number (1-indexed)
+     * @param name The level name
+     * @param rootChamber The root chamber (composite structure)
+     */
+    public Level(int levelNumber, String name, ChamberComponent rootChamber) {
+        this.levelNumber = levelNumber;
+        this.name = name;
+        this.rootChamber = rootChamber;
+        this.recipes = new ArrayList<>();
+        this.playerStartX = rootChamber.getX() + rootChamber.getWidth() / 2;
+        this.playerStartY = rootChamber.getY() + rootChamber.getHeight() / 2;
+        this.completed = false;
+    }
+    
+    /**
+     * Updates the level.
+     * 
+     * @param deltaTime Time since last update
+     */
+    public void update(double deltaTime) {
+        rootChamber.update(deltaTime);
+    }
+    
+    /**
+     * Checks if the level is completed.
+     * 
+     * @return true if all essences collected
+     */
+    public boolean isCompleted() {
+        return rootChamber.isCompleted();
+    }
+    
+    /**
+     * Gets the completion percentage.
+     * 
+     * @return Percentage (0-100)
+     */
+    public double getCompletionPercentage() {
+        return rootChamber.getCompletionPercentage();
+    }
+    
+    /**
+     * Adds a recipe to this level.
+     * 
+     * @param recipe The recipe to add
+     */
+    public void addRecipe(Recipe recipe) {
+        recipes.add(recipe);
+    }
+    
+    // Getters and setters
+    
+    public int getLevelNumber() { return levelNumber; }
+    public String getName() { return name; }
+    public ChamberComponent getRootChamber() { return rootChamber; }
+    public List<Recipe> getRecipes() { return new ArrayList<>(recipes); }
+    public double getPlayerStartX() { return playerStartX; }
+    public double getPlayerStartY() { return playerStartY; }
+    
+    public void setPlayerStartPosition(double x, double y) {
+        this.playerStartX = x;
+        this.playerStartY = y;
+    }
+    
+    public int getTotalEssences() { return rootChamber.getTotalEssenceCount(); }
+    public int getRemainingEssences() { return rootChamber.getRemainingEssenceCount(); }
+}
