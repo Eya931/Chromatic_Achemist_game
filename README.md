@@ -1,4 +1,4 @@
-# 🌈 Chromatic Alchemist
+# Chromatic Alchemist
 
 **A Design Patterns Showcase Game**
 
@@ -166,11 +166,6 @@ DesignPatternsProject/
 │       │           └── GameView.java            # Rendering
 │       └── resources/
 │           └── log4j2.xml                       # Logging config
-├── docs/
-│   ├── uml/
-│   │   └── ChromaticAlchemist.puml             # UML diagram
-│   └── soutenance/
-│       └── presentation_guide.md               # Presentation guide
 ├── logs/
 │   └── example_game.log                        # Example log file
 ├── pom.xml
@@ -245,15 +240,6 @@ The game uses Log4j2 with the format: `[YYYY-MM-DD HH:MM:SS] [LEVEL] Message`
 
 ---
 
-## 📐 UML Diagram
-
-The UML diagram is located at `docs/uml/ChromaticAlchemist.puml` and can be rendered using:
-- [PlantUML Online](https://www.plantuml.com/plantuml/uml/)
-- PlantUML VS Code Extension
-- IntelliJ IDEA with PlantUML plugin
-
----
-
 ## 🎯 Levels
 
 1. **Tutorial** - Learn basic controls and Fire state
@@ -268,8 +254,3 @@ The UML diagram is located at `docs/uml/ChromaticAlchemist.puml` and can be rend
 
 **Design Patterns Project** - Educational game showcasing GoF patterns
 
----
-
-## 📄 License
-
-This project is created for educational purposes.
