@@ -12,6 +12,7 @@ import java.util.UUID;
  * Represents a simple chamber that cannot contain other chambers.
  * Contains only game elements (essences, obstacles, power-ups).
  */
+
 public class SimpleChamber implements ChamberComponent {
     
     private final String id;
@@ -23,20 +24,10 @@ public class SimpleChamber implements ChamberComponent {
     private String backgroundColor;
     private String borderColor;
     
-    // Chamber contents
     private final List<EssenceParticle> essences;
     private final List<Obstacle> obstacles;
     private final List<PowerUp> powerUps;
     
-    /**
-     * Creates a new simple chamber.
-     * 
-     * @param name Chamber name
-     * @param x X position
-     * @param y Y position
-     * @param width Width
-     * @param height Height
-     */
     public SimpleChamber(String name, double x, double y, double width, double height) {
         this.id = UUID.randomUUID().toString().substring(0, 8);
         this.name = name;
@@ -90,19 +81,17 @@ public class SimpleChamber implements ChamberComponent {
     
     @Override
     public void update(double deltaTime) {
-        // Update all essences
+
         for (EssenceParticle essence : essences) {
             if (!essence.isCollected()) {
                 essence.update(deltaTime);
             }
         }
         
-        // Update all obstacles
         for (Obstacle obstacle : obstacles) {
             obstacle.update(deltaTime);
         }
         
-        // Update all power-ups
         for (PowerUp powerUp : powerUps) {
             if (!powerUp.isCollected()) {
                 powerUp.update(deltaTime);
@@ -144,7 +133,7 @@ public class SimpleChamber implements ChamberComponent {
     
     @Override
     public List<ChamberComponent> getChildren() {
-        return new ArrayList<>(); // Empty - leaf node
+        return new ArrayList<>();
     }
     
     @Override
@@ -216,23 +205,11 @@ public class SimpleChamber implements ChamberComponent {
         powerUps.remove(powerUp);
     }
     
-    /**
-     * Sets the position of this chamber.
-     * 
-     * @param x New X position
-     * @param y New Y position
-     */
     public void setPosition(double x, double y) {
         this.x = x;
         this.y = y;
     }
     
-    /**
-     * Sets the size of this chamber.
-     * 
-     * @param width New width
-     * @param height New height
-     */
     public void setSize(double width, double height) {
         this.width = width;
         this.height = height;

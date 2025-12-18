@@ -17,15 +17,11 @@ import javafx.application.Application;
  * @author Chromatic Alchemist Team
  * @version 1.0.0
  */
+
 public class Main {
     
-    /**
-     * Application entry point.
-     * Initializes the logging system and launches the JavaFX application.
-     * 
-     * @param args Command line arguments (not used)
-     */
     public static void main(String[] args) {
+
         // Initialize the logging system
         GameLogger.getInstance().logInfo("===========================================");
         GameLogger.getInstance().logInfo("Chromatic Alchemist Game Starting...");

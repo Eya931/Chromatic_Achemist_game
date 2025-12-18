@@ -12,6 +12,7 @@ import java.util.UUID;
  * Represents a compound chamber that can contain other chambers (both simple and compound).
  * Implements the tree structure for hierarchical level design.
  */
+
 public class CompoundChamber implements ChamberComponent {
     
     private final String id;
@@ -23,23 +24,13 @@ public class CompoundChamber implements ChamberComponent {
     private String backgroundColor;
     private String borderColor;
     
-    // Child chambers
     private final List<ChamberComponent> children;
     
-    // Direct contents (essences, obstacles, power-ups at this level)
     private final List<EssenceParticle> directEssences;
     private final List<Obstacle> directObstacles;
     private final List<PowerUp> directPowerUps;
     
-    /**
-     * Creates a new compound chamber.
-     * 
-     * @param name Chamber name
-     * @param x X position
-     * @param y Y position
-     * @param width Width
-     * @param height Height
-     */
+
     public CompoundChamber(String name, double x, double y, double width, double height) {
         this.id = UUID.randomUUID().toString().substring(0, 8);
         this.name = name;
@@ -94,7 +85,7 @@ public class CompoundChamber implements ChamberComponent {
     
     @Override
     public void update(double deltaTime) {
-        // Update direct contents
+
         for (EssenceParticle essence : directEssences) {
             if (!essence.isCollected()) {
                 essence.update(deltaTime);
@@ -111,7 +102,6 @@ public class CompoundChamber implements ChamberComponent {
             }
         }
         
-        // Update all children
         for (ChamberComponent child : children) {
             child.update(deltaTime);
         }
@@ -137,11 +127,9 @@ public class CompoundChamber implements ChamberComponent {
     
     @Override
     public boolean isCompleted() {
-        // Check direct essences
         if (directEssences.stream().anyMatch(e -> !e.isCollected())) {
             return false;
         }
-        // Check all children
         for (ChamberComponent child : children) {
             if (!child.isCompleted()) {
                 return false;
@@ -234,7 +222,6 @@ public class CompoundChamber implements ChamberComponent {
     @Override
     public void removeEssence(EssenceParticle essence) {
         directEssences.remove(essence);
-        // Also try to remove from children
         for (ChamberComponent child : children) {
             child.removeEssence(essence);
         }
@@ -257,47 +244,26 @@ public class CompoundChamber implements ChamberComponent {
     @Override
     public void removePowerUp(PowerUp powerUp) {
         directPowerUps.remove(powerUp);
-        // Also try to remove from children
         for (ChamberComponent child : children) {
             child.removePowerUp(powerUp);
         }
     }
     
-    /**
-     * Sets the position of this chamber.
-     * 
-     * @param x New X position
-     * @param y New Y position
-     */
     public void setPosition(double x, double y) {
         this.x = x;
         this.y = y;
     }
     
-    /**
-     * Sets the size of this chamber.
-     * 
-     * @param width New width
-     * @param height New height
-     */
     public void setSize(double width, double height) {
         this.width = width;
         this.height = height;
     }
     
-    /**
-     * Finds the deepest chamber containing the given point.
-     * 
-     * @param px X coordinate
-     * @param py Y coordinate
-     * @return The deepest chamber containing the point, or null
-     */
     public ChamberComponent findDeepestChamber(double px, double py) {
         if (!containsPoint(px, py)) {
             return null;
         }
         
-        // Check children first (depth-first)
         for (ChamberComponent child : children) {
             if (child.containsPoint(px, py)) {
                 if (child.isComposite()) {

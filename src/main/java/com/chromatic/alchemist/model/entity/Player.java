@@ -19,9 +19,9 @@ import java.util.UUID;
  * - Decorator Pattern: Ability enhancements (speed, shield, magnet, etc.)
  * - Observer Pattern: Notifies game systems of player events
  */
+
 public class Player {
     
-    // Identity
     private final String id;
     private final String name;
     
@@ -73,12 +73,7 @@ public class Player {
     private double pulsePhase;
     private double trailPhase;
     
-    /**
-     * Creates a new player at the specified position.
-     * 
-     * @param x Starting X position
-     * @param y Starting Y position
-     */
+
     public Player(double x, double y) {
         this.id = UUID.randomUUID().toString().substring(0, 8);
         this.name = "Alchemist";
@@ -130,11 +125,6 @@ public class Player {
         GameLogger.getInstance().logPlayerStateChange("NONE", currentState.getStateName());
     }
     
-    /**
-     * Updates the player state and position.
-     * 
-     * @param deltaTime Time since last update in seconds
-     */
     public void update(double deltaTime) {
         // Update elemental state
         currentState.update(this, deltaTime);
@@ -162,9 +152,6 @@ public class Player {
         }
     }
     
-    /**
-     * Updates temporary effects (speed boost, phasing, shield, dash).
-     */
     private void updateTemporaryEffects(double deltaTime) {
         // Temporary speed boost
         if (temporarySpeedDuration > 0) {
@@ -207,9 +194,6 @@ public class Player {
         }
     }
     
-    /**
-     * Updates decorators and removes expired ones.
-     */
     private void updateDecorators(double deltaTime) {
         List<AbilityDecorator> expiredDecorators = new ArrayList<>();
         
@@ -225,12 +209,9 @@ public class Player {
         }
     }
     
-    /**
-     * Updates player movement based on input.
-     */
     private void updateMovement(double deltaTime) {
         if (dashing) {
-            return; // Don't process normal movement while dashing
+            return; 
         }
         
         // Calculate target velocity based on input
@@ -261,11 +242,6 @@ public class Player {
         y += velocityY * deltaTime;
     }
     
-    /**
-     * Gets the effective speed considering all modifiers.
-     * 
-     * @return Effective speed in pixels per second
-     */
     public double getEffectiveSpeed() {
         double baseSpeed = abilities.getSpeed();
         double stateModifier = currentState.getSpeedModifier();
@@ -276,11 +252,6 @@ public class Player {
     
     // ==================== STATE PATTERN METHODS ====================
     
-    /**
-     * Changes the player's elemental state.
-     * 
-     * @param newState The new elemental state
-     */
     public void changeState(ElementalState newState) {
         if (currentState != null) {
             previousStateName = currentState.getStateName();
@@ -299,66 +270,40 @@ public class Player {
         );
     }
     
-    /**
-     * Transmutes to Fire state.
-     */
     public void transmuteToFire() {
         if (!(currentState instanceof FireState)) {
             changeState(new FireState());
         }
     }
     
-    /**
-     * Transmutes to Water state.
-     */
     public void transmuteToWater() {
         if (!(currentState instanceof WaterState)) {
             changeState(new WaterState());
         }
     }
     
-    /**
-     * Transmutes to Earth state.
-     */
     public void transmuteToEarth() {
         if (!(currentState instanceof EarthState)) {
             changeState(new EarthState());
         }
     }
     
-    /**
-     * Transmutes to Air state.
-     */
     public void transmuteToAir() {
         if (!(currentState instanceof AirState)) {
             changeState(new AirState());
         }
     }
     
-    /**
-     * Uses the special ability of the current elemental state.
-     */
     public void useSpecialAbility() {
         currentState.useSpecialAbility(this);
     }
     
-    /**
-     * Checks if the player can absorb an essence of the given color.
-     * 
-     * @param essenceColor The color of the essence
-     * @return true if the essence can be absorbed
-     */
     public boolean canAbsorb(String essenceColor) {
         return currentState.canAbsorb(essenceColor);
     }
     
     // ==================== DECORATOR PATTERN METHODS ====================
     
-    /**
-     * Applies a decorator to the player's abilities.
-     * 
-     * @param decorator The decorator to apply
-     */
     public void applyDecorator(AbilityDecorator decorator) {
         abilities = decorator;
         activeDecorators.add(decorator);
@@ -371,15 +316,9 @@ public class Player {
         );
     }
     
-    /**
-     * Removes a specific decorator.
-     * 
-     * @param decorator The decorator to remove
-     */
     public void removeDecorator(AbilityDecorator decorator) {
         activeDecorators.remove(decorator);
         
-        // Rebuild ability chain
         rebuildAbilityChain();
         
         GameEventManager.getInstance().fireEvent(
@@ -391,9 +330,6 @@ public class Player {
         GameLogger.getInstance().logDecoratorRemoved(decorator.getDecoratorName(), "Player");
     }
     
-    /**
-     * Rebuilds the ability decorator chain after removing a decorator.
-     */
     private void rebuildAbilityChain() {
         abilities = new BasePlayerAbility();
         for (AbilityDecorator decorator : activeDecorators) {
@@ -421,65 +357,30 @@ public class Player {
         }
     }
     
-    /**
-     * Applies a speed boost decorator.
-     * 
-     * @param duration Duration in seconds
-     */
     public void applySpeedBoost(double duration) {
         applyDecorator(new SpeedBoostDecorator(abilities, duration));
     }
     
-    /**
-     * Applies a shield decorator.
-     * 
-     * @param duration Duration in seconds
-     */
     public void applyShieldDecorator(double duration) {
         applyDecorator(new ShieldDecorator(abilities, duration));
     }
     
-    /**
-     * Applies a magnet decorator.
-     * 
-     * @param duration Duration in seconds
-     */
     public void applyMagnet(double duration) {
         applyDecorator(new MagnetDecorator(abilities, duration));
     }
     
-    /**
-     * Applies a multi-absorb decorator.
-     * 
-     * @param duration Duration in seconds
-     */
     public void applyMultiAbsorb(double duration) {
         applyDecorator(new MultiAbsorbDecorator(abilities, duration));
     }
     
-    /**
-     * Applies a score multiplier decorator.
-     * 
-     * @param duration Duration in seconds
-     */
     public void applyScoreMultiplier(double duration) {
         applyDecorator(new ScoreMultiplierDecorator(abilities, duration));
     }
     
-    /**
-     * Applies a range boost decorator.
-     * 
-     * @param duration Duration in seconds
-     */
     public void applyRangeBoost(double duration) {
         applyDecorator(new RangeBoostDecorator(abilities, duration));
     }
     
-    /**
-     * Gets the list of active decorator names.
-     * 
-     * @return Array of decorator names
-     */
     public String[] getActiveDecoratorNames() {
         return activeDecorators.stream()
             .map(AbilityDecorator::getDecoratorName)
@@ -488,12 +389,6 @@ public class Player {
     
     // ==================== SPECIAL ABILITY EFFECT METHODS ====================
     
-    /**
-     * Applies a temporary speed boost (from Fire state ability).
-     * 
-     * @param multiplier Speed multiplier
-     * @param duration Duration in seconds
-     */
     public void applyTemporarySpeedBoost(double multiplier, double duration) {
         this.temporarySpeedBoost = multiplier;
         this.temporarySpeedDuration = duration;
@@ -501,11 +396,6 @@ public class Player {
             String.format("Temporary speed boost x%.1f for %.1fs", multiplier, duration));
     }
     
-    /**
-     * Activates phasing ability (from Water state ability).
-     * 
-     * @param duration Duration in seconds
-     */
     public void activatePhasing(double duration) {
         this.phasing = true;
         this.phasingDuration = duration;
@@ -513,11 +403,6 @@ public class Player {
             String.format("Phasing activated for %.1fs", duration));
     }
     
-    /**
-     * Activates shield ability (from Earth state ability).
-     * 
-     * @param duration Duration in seconds
-     */
     public void activateShield(double duration) {
         this.shielded = true;
         this.shieldDuration = duration;
@@ -525,11 +410,6 @@ public class Player {
             String.format("Shield activated for %.1fs", duration));
     }
     
-    /**
-     * Performs a dash (from Air state ability).
-     * 
-     * @param distance Dash distance in pixels
-     */
     public void performDash(double distance) {
         // Determine dash direction from current velocity or facing direction
         double dirX = velocityX;
@@ -553,11 +433,6 @@ public class Player {
     
     // ==================== DAMAGE AND HEALTH ====================
     
-    /**
-     * Deals damage to the player.
-     * 
-     * @param damage Amount of damage
-     */
     public void takeDamage(int damage) {
         if (invincible || shielded) {
             GameLogger.getInstance().logGameEvent("Player", 
@@ -581,7 +456,6 @@ public class Player {
                 .addData("newHealth", health)
         );
         
-        // Grant invincibility
         invincible = true;
         invincibilityDuration = INVINCIBILITY_TIME;
         
@@ -595,11 +469,6 @@ public class Player {
         }
     }
     
-    /**
-     * Heals the player.
-     * 
-     * @param amount Amount to heal
-     */
     public void heal(int amount) {
         int oldHealth = health;
         health = Math.min(maxHealth, health + amount);
@@ -616,12 +485,6 @@ public class Player {
     
     // ==================== SCORE ====================
     
-    /**
-     * Adds points to the player's score.
-     * 
-     * @param points Base points to add
-     * @param reason Reason for the score change
-     */
     public void addScore(int points, String reason) {
         int oldScore = score;
         int actualPoints = (int) (points * abilities.getScoreMultiplier());
@@ -638,9 +501,6 @@ public class Player {
         );
     }
     
-    /**
-     * Increments the essence collected counter.
-     */
     public void incrementEssencesCollected() {
         essencesCollected++;
     }
@@ -663,14 +523,6 @@ public class Player {
     
     // ==================== BOUNDARY CONSTRAINTS ====================
     
-    /**
-     * Constrains the player position within boundaries.
-     * 
-     * @param minX Minimum X
-     * @param minY Minimum Y
-     * @param maxX Maximum X
-     * @param maxY Maximum Y
-     */
     public void constrainToBounds(double minX, double minY, double maxX, double maxY) {
         x = Math.max(minX + radius, Math.min(maxX - radius, x));
         y = Math.max(minY + radius, Math.min(maxY - radius, y));
@@ -714,11 +566,6 @@ public class Player {
     public double getPulsePhase() { return pulsePhase; }
     public double getTrailPhase() { return trailPhase; }
     
-    /**
-     * Gets the visual radius with pulse effect.
-     * 
-     * @return Visual radius
-     */
     public double getVisualRadius() {
         return radius + Math.sin(pulsePhase) * 3.0;
     }

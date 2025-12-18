@@ -14,6 +14,7 @@ import com.chromatic.alchemist.logging.GameLogger;
  * - VICTORY: Player won
  * - OPTIONS: Options menu displayed
  */
+
 public enum GameState {
     MENU("Main Menu"),
     PLAYING("Playing"),
@@ -28,20 +29,10 @@ public enum GameState {
         this.displayName = displayName;
     }
     
-    /**
-     * Gets the display name for this state.
-     * 
-     * @return Human-readable state name
-     */
     public String getDisplayName() {
         return displayName;
     }
     
-    /**
-     * Logs a transition from this state to another.
-     * 
-     * @param newState The state being transitioned to
-     */
     public void logTransitionTo(GameState newState) {
         GameLogger.getInstance().logGameStateChange(this.name(), newState.name());
     }

@@ -7,11 +7,9 @@ import java.util.UUID;
  * 
  * Represents a power-up that grants the player a decorator ability.
  */
+
 public class PowerUp {
     
-    /**
-     * Types of power-ups corresponding to decorators.
-     */
     public enum PowerUpType {
         SPEED_BOOST("Speed Boost", "#00FF00", "SpeedBoost"),
         SHIELD("Shield", "#0088FF", "Shield"),
@@ -41,21 +39,12 @@ public class PowerUp {
     private double y;
     private final double radius;
     private boolean collected;
-    private final double duration; // Duration of the effect in seconds
+    private final double duration;
     
-    // Animation properties
     private double rotationAngle;
     private double pulsePhase;
     private double floatPhase;
     
-    /**
-     * Creates a new power-up.
-     * 
-     * @param type The type of power-up
-     * @param x X position
-     * @param y Y position
-     * @param duration Duration of the effect in seconds
-     */
     public PowerUp(PowerUpType type, double x, double y, double duration) {
         this.id = UUID.randomUUID().toString().substring(0, 8);
         this.type = type;
@@ -69,52 +58,28 @@ public class PowerUp {
         this.floatPhase = Math.random() * Math.PI * 2;
     }
     
-    /**
-     * Updates the power-up animation.
-     * 
-     * @param deltaTime Time since last update
-     */
     public void update(double deltaTime) {
-        rotationAngle += deltaTime * 60.0; // 60 degrees per second
+        rotationAngle += deltaTime * 60.0; 
         if (rotationAngle >= 360) rotationAngle -= 360;
         
         pulsePhase += deltaTime * 4.0;
         floatPhase += deltaTime * 2.0;
     }
     
-    /**
-     * Gets the current visual radius with pulse effect.
-     * 
-     * @return Visual radius
-     */
     public double getVisualRadius() {
         return radius + Math.sin(pulsePhase) * 4.0;
     }
     
-    /**
-     * Gets the Y offset for floating animation.
-     * 
-     * @return Float Y offset
-     */
     public double getFloatY() {
         return y + Math.sin(floatPhase) * 8.0;
     }
     
-    /**
-     * Checks if a point is within collection range.
-     * 
-     * @param px Point X
-     * @param py Point Y
-     * @param range Collection range
-     * @return true if within range
-     */
     public boolean isInRange(double px, double py, double range) {
         double dx = x - px;
         double dy = y - py;
         return Math.sqrt(dx * dx + dy * dy) <= range + radius;
     }
     
-    // Getters and setters
     
     public String getId() { return id; }
     public PowerUpType getType() { return type; }

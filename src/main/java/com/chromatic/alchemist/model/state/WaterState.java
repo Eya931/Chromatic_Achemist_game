@@ -12,6 +12,7 @@ import com.chromatic.alchemist.model.entity.Player;
  * - Special ability: Flow - phase through obstacles briefly
  * - Visual: Blue appearance with wave glow
  */
+
 public class WaterState implements ElementalState {
     
     private static final String STATE_NAME = "WATER";
@@ -75,7 +76,6 @@ public class WaterState implements ElementalState {
     
     @Override
     public void update(Player player, double deltaTime) {
-        // Update ability cooldown
         if (abilityCooldown > 0) {
             abilityCooldown -= deltaTime;
         }
@@ -100,11 +100,6 @@ public class WaterState implements ElementalState {
         return "FLOW: Phase through obstacles for 3 seconds (8s cooldown)";
     }
     
-    /**
-     * Gets the remaining cooldown time for the special ability.
-     * 
-     * @return Cooldown time in seconds
-     */
     public double getAbilityCooldown() {
         return Math.max(0, abilityCooldown);
     }

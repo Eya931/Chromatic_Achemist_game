@@ -12,6 +12,7 @@ import com.chromatic.alchemist.model.entity.Player;
  * - Special ability: Burst - temporary speed boost
  * - Visual: Orange-red appearance with flame glow
  */
+
 public class FireState implements ElementalState {
     
     private static final String STATE_NAME = "FIRE";
@@ -75,7 +76,6 @@ public class FireState implements ElementalState {
     
     @Override
     public void update(Player player, double deltaTime) {
-        // Update ability cooldown
         if (abilityCooldown > 0) {
             abilityCooldown -= deltaTime;
         }
@@ -100,11 +100,6 @@ public class FireState implements ElementalState {
         return "BURST: Double speed for 2 seconds (5s cooldown)";
     }
     
-    /**
-     * Gets the remaining cooldown time for the special ability.
-     * 
-     * @return Cooldown time in seconds
-     */
     public double getAbilityCooldown() {
         return Math.max(0, abilityCooldown);
     }
