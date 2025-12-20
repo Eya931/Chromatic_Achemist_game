@@ -10,6 +10,7 @@ import java.util.List;
  * Level class representing a game level.
  * Uses the Composite pattern with ChamberComponent as the structure.
  */
+
 public class Level {
     
     private final int levelNumber;
@@ -20,13 +21,6 @@ public class Level {
     private double playerStartY;
     private boolean completed;
     
-    /**
-     * Creates a new level.
-     * 
-     * @param levelNumber The level number (1-indexed)
-     * @param name The level name
-     * @param rootChamber The root chamber (composite structure)
-     */
     public Level(int levelNumber, String name, ChamberComponent rootChamber) {
         this.levelNumber = levelNumber;
         this.name = name;
@@ -37,43 +31,22 @@ public class Level {
         this.completed = false;
     }
     
-    /**
-     * Updates the level.
-     * 
-     * @param deltaTime Time since last update
-     */
     public void update(double deltaTime) {
         rootChamber.update(deltaTime);
     }
     
-    /**
-     * Checks if the level is completed.
-     * 
-     * @return true if all essences collected
-     */
     public boolean isCompleted() {
         return rootChamber.isCompleted();
     }
     
-    /**
-     * Gets the completion percentage.
-     * 
-     * @return Percentage (0-100)
-     */
     public double getCompletionPercentage() {
         return rootChamber.getCompletionPercentage();
     }
     
-    /**
-     * Adds a recipe to this level.
-     * 
-     * @param recipe The recipe to add
-     */
     public void addRecipe(Recipe recipe) {
         recipes.add(recipe);
     }
     
-    // Getters and setters
     
     public int getLevelNumber() { return levelNumber; }
     public String getName() { return name; }

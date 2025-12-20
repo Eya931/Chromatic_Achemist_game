@@ -48,6 +48,7 @@ import java.util.Random;
  * - Game over scene
  * - Victory scene
  */
+
 public class GameView {
     
     private final Stage stage;
@@ -79,14 +80,6 @@ public class GameView {
     // Settings
     private int difficulty = 1;
     
-    /**
-     * Creates a new game view.
-     * 
-     * @param stage The primary stage
-     * @param controller The game controller
-     * @param width Game width
-     * @param height Game height
-     */
     public GameView(Stage stage, GameController controller, double width, double height) {
         this.stage = stage;
         this.controller = controller;
@@ -109,9 +102,6 @@ public class GameView {
     
     // ==================== SCENE CREATION ====================
     
-    /**
-     * Creates the main menu scene with attractive visuals and animations.
-     */
     private void createMenuScene() {
         // Main container with animated background
         StackPane root = new StackPane();
@@ -213,9 +203,7 @@ public class GameView {
         menuScene = new Scene(root, width, height);
     }
     
-    /**
-     * Creates animated floating particles background.
-     */
+    //Creates animated floating particles background.
     private Pane createAnimatedBackground() {
         Pane pane = new Pane();
         pane.setStyle("-fx-background-color: linear-gradient(to bottom, #0a0a1a, #1a1a3a, #0d0d2a);");
@@ -349,9 +337,7 @@ public class GameView {
         return orbs;
     }
     
-    /**
-     * Creates an animated menu button with gradient and hover effects.
-     */
+    //Creates an animated menu button with gradient and hover effects.
     private Button createAnimatedMenuButton(String text, String color1, String color2) {
         Button btn = new Button(text);
         btn.setFont(Font.font("Arial", FontWeight.BOLD, 18));
@@ -431,9 +417,7 @@ public class GameView {
         return btn;
     }
     
-    /**
-     * Creates the controls info panel with glass effect.
-     */
+    //Creates the controls info panel with glass effect.
     private VBox createControlsPanel() {
         VBox panel = new VBox(10);
         panel.setAlignment(Pos.CENTER);
@@ -487,9 +471,7 @@ public class GameView {
         return panel;
     }
     
-    /**
-     * Creates the game scene with canvas.
-     */
+    //Creates the game scene with canvas.
     private void createGameScene() {
         gameRoot = new StackPane();
         gameRoot.setStyle("-fx-background-color: #000000;");
@@ -525,9 +507,7 @@ public class GameView {
         gameScene.setOnKeyReleased(e -> controller.handleKeyReleased(e.getCode()));
     }
     
-    /**
-     * Creates the pause overlay.
-     */
+   //Creates the pause overlay. 
     private VBox createPauseOverlay() {
         VBox overlay = new VBox(20);
         overlay.setAlignment(Pos.CENTER);
@@ -549,9 +529,7 @@ public class GameView {
         return overlay;
     }
     
-    /**
-     * Creates the options scene.
-     */
+    //Creates the options scene.
     private void createOptionsScene() {
         VBox root = new VBox(30);
         root.setAlignment(Pos.CENTER);
@@ -602,9 +580,7 @@ public class GameView {
         optionsScene = new Scene(root, width, height);
     }
     
-    /**
-     * Creates a styled menu button.
-     */
+    //Creates a styled menu button.
     private Button createMenuButton(String text) {
         Button btn = new Button(text);
         btn.setFont(buttonFont);
@@ -656,9 +632,7 @@ public class GameView {
         stage.setScene(optionsScene);
     }
     
-    /**
-     * Shows the How to Play scene with game instructions.
-     */
+    //Shows the How to Play scene with game instructions.
     public void showHowToPlayScene() {
         StackPane root = new StackPane();
         root.setStyle("-fx-background-color: linear-gradient(to bottom, #0a0a1a, #1a1a3a, #0d0d2a);");
@@ -769,9 +743,7 @@ public class GameView {
         stage.setScene(howToPlayScene);
     }
     
-    /**
-     * Creates a styled info section for the How to Play screen.
-     */
+    //Creates a styled info section for the How to Play screen.
     private VBox createInfoSection(String title, String content, String accentColor) {
         VBox section = new VBox(8);
         section.setPadding(new Insets(15));
@@ -869,11 +841,6 @@ public class GameView {
     
     // ==================== RENDERING ====================
     
-    /**
-     * Main render method called by the game loop.
-     * 
-     * @param model The game model to render
-     */
     public void render(GameModel model) {
         if (model.getCurrentState() != GameState.PLAYING && 
             model.getCurrentState() != GameState.PAUSED) {
@@ -900,9 +867,6 @@ public class GameView {
         renderHUD(model);
     }
     
-    /**
-     * Renders a chamber and its contents recursively.
-     */
     private void renderChamber(ChamberComponent chamber) {
         // Draw chamber background
         gc.setFill(Color.web(chamber.getBackgroundColor()));
@@ -943,9 +907,6 @@ public class GameView {
         }
     }
     
-    /**
-     * Renders an essence particle.
-     */
     private void renderEssence(EssenceParticle essence) {
         double x = essence.getX();
         double y = essence.getFloatY();
@@ -969,9 +930,6 @@ public class GameView {
         gc.fillOval(x - radius * 0.4, y - radius * 0.4, radius * 0.6, radius * 0.6);
     }
     
-    /**
-     * Renders an obstacle.
-     */
     private void renderObstacle(Obstacle obstacle) {
         double x = obstacle.getX();
         double y = obstacle.getY();
@@ -999,9 +957,6 @@ public class GameView {
         gc.restore();
     }
     
-    /**
-     * Renders a power-up.
-     */
     private void renderPowerUp(PowerUp powerUp) {
         double x = powerUp.getX();
         double y = powerUp.getFloatY();
@@ -1018,7 +973,7 @@ public class GameView {
         gc.setFill(Color.web(powerUp.getColor()).deriveColor(0, 1, 1, 0.2));
         gc.fillOval(x - radius * 1.8, y - radius * 1.8, radius * 3.6, radius * 3.6);
         
-        // Main shape (hexagon-like)
+        // Main shape 
         gc.setFill(Color.web(powerUp.getColor()));
         gc.fillOval(x - radius, y - radius, radius * 2, radius * 2);
         
@@ -1036,9 +991,6 @@ public class GameView {
         gc.setTextAlign(TextAlignment.LEFT);
     }
     
-    /**
-     * Renders the player.
-     */
     private void renderPlayer(Player player) {
         double x = player.getX();
         double y = player.getY();
@@ -1046,7 +998,7 @@ public class GameView {
         
         // Invincibility flash
         if (player.isInvincible() && (System.currentTimeMillis() / 100) % 2 == 0) {
-            return; // Flash effect - skip rendering every other frame
+            return;
         }
         
         // Phasing effect
@@ -1082,16 +1034,13 @@ public class GameView {
         gc.setLineWidth(2);
         gc.strokeOval(x - radius - 5, y - radius - 5, radius * 2 + 10, radius * 2 + 10);
         
-        // Absorption range indicator (faint)
+        // Absorption range indicator
         double absRange = player.getAbsorptionRange();
         gc.setStroke(Color.web(player.getStateColor()).deriveColor(0, 1, 1, 0.2));
         gc.setLineWidth(1);
         gc.strokeOval(x - absRange, y - absRange, absRange * 2, absRange * 2);
     }
     
-    /**
-     * Renders the HUD.
-     */
     private void renderHUD(GameModel model) {
         Player player = model.getPlayer();
         Level level = model.getCurrentLevel();

@@ -12,6 +12,7 @@ import com.chromatic.alchemist.model.entity.Player;
  * - Special ability: Dash - quick directional dash
  * - Visual: White-yellow appearance with wind glow
  */
+
 public class AirState implements ElementalState {
     
     private static final String STATE_NAME = "AIR";
@@ -75,7 +76,6 @@ public class AirState implements ElementalState {
     
     @Override
     public void update(Player player, double deltaTime) {
-        // Update ability cooldown
         if (abilityCooldown > 0) {
             abilityCooldown -= deltaTime;
         }
@@ -100,11 +100,6 @@ public class AirState implements ElementalState {
         return "DASH: Quick dash in movement direction (3s cooldown)";
     }
     
-    /**
-     * Gets the remaining cooldown time for the special ability.
-     * 
-     * @return Cooldown time in seconds
-     */
     public double getAbilityCooldown() {
         return Math.max(0, abilityCooldown);
     }

@@ -12,6 +12,7 @@ import com.chromatic.alchemist.model.entity.Player;
  * - Special ability: Shield - temporary damage immunity
  * - Visual: Green-brown appearance with rock glow
  */
+
 public class EarthState implements ElementalState {
     
     private static final String STATE_NAME = "EARTH";
@@ -75,7 +76,6 @@ public class EarthState implements ElementalState {
     
     @Override
     public void update(Player player, double deltaTime) {
-        // Update ability cooldown
         if (abilityCooldown > 0) {
             abilityCooldown -= deltaTime;
         }
@@ -100,11 +100,6 @@ public class EarthState implements ElementalState {
         return "SHIELD: Damage immunity for 4 seconds (10s cooldown)";
     }
     
-    /**
-     * Gets the remaining cooldown time for the special ability.
-     * 
-     * @return Cooldown time in seconds
-     */
     public double getAbilityCooldown() {
         return Math.max(0, abilityCooldown);
     }

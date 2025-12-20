@@ -11,12 +11,7 @@ import com.chromatic.alchemist.view.GameView;
 import javafx.animation.AnimationTimer;
 import javafx.scene.input.KeyCode;
 
-/**
- * Game Controller
- * 
- * Manages the game loop and handles input.
- * Acts as the bridge between the Model and View (MVC pattern).
- */
+
 public class GameController implements GameObserver {
     
     private final GameModel model;
@@ -25,23 +20,16 @@ public class GameController implements GameObserver {
     private long lastUpdateTime;
     private boolean initialized;
     
-    // Frame rate control
     private static final double TARGET_FPS = 60.0;
     private static final double FRAME_TIME = 1.0 / TARGET_FPS;
     private double accumulator;
     
-    /**
-     * Creates a new game controller.
-     * 
-     * @param width Game width
-     * @param height Game height
-     */
+
     public GameController(double width, double height) {
         this.model = new GameModel(width, height);
         this.initialized = false;
         this.accumulator = 0;
         
-        // Subscribe to relevant events
         GameEventManager.getInstance().subscribe(
             new GameEvent.EventType[]{
                 GameEvent.EventType.GAME_OVER,
@@ -54,19 +42,13 @@ public class GameController implements GameObserver {
         GameLogger.getInstance().logInfo("GameController initialized");
     }
     
-    /**
-     * Sets the view for this controller.
-     * 
-     * @param view The game view
-     */
+    
     public void setView(GameView view) {
         this.view = view;
         this.initialized = true;
     }
     
-    /**
-     * Starts the game loop.
-     */
+    
     public void startGameLoop() {
         if (gameLoop != null) {
             gameLoop.stop();
@@ -77,23 +59,20 @@ public class GameController implements GameObserver {
         gameLoop = new AnimationTimer() {
             @Override
             public void handle(long now) {
-                // Calculate delta time in seconds
+            
                 double deltaTime = (now - lastUpdateTime) / 1_000_000_000.0;
                 lastUpdateTime = now;
                 
-                // Cap delta time to prevent spiral of death
                 if (deltaTime > 0.25) {
                     deltaTime = 0.25;
                 }
                 
-                // Fixed timestep update with accumulator
                 accumulator += deltaTime;
                 while (accumulator >= FRAME_TIME) {
                     update(FRAME_TIME);
                     accumulator -= FRAME_TIME;
                 }
                 
-                // Render with interpolation
                 render();
             }
         };
@@ -102,9 +81,7 @@ public class GameController implements GameObserver {
         GameLogger.getInstance().logInfo("Game loop started");
     }
     
-    /**
-     * Stops the game loop.
-     */
+    
     public void stopGameLoop() {
         if (gameLoop != null) {
             gameLoop.stop();
@@ -112,18 +89,11 @@ public class GameController implements GameObserver {
         }
     }
     
-    /**
-     * Updates the game state.
-     * 
-     * @param deltaTime Time since last update in seconds
-     */
+    
     private void update(double deltaTime) {
         model.update(deltaTime);
     }
     
-    /**
-     * Renders the game.
-     */
     private void render() {
         if (view != null && initialized) {
             view.render(model);
@@ -132,9 +102,7 @@ public class GameController implements GameObserver {
     
     // ==================== GAME CONTROL ====================
     
-    /**
-     * Starts a new game.
-     */
+   
     public void newGame() {
         GameLogger.getInstance().logInfo("Starting new game...");
         model.startGame();
@@ -143,19 +111,13 @@ public class GameController implements GameObserver {
         }
     }
     
-    /**
-     * Pauses the game.
-     */
     public void pauseGame() {
         model.pauseGame();
         if (view != null) {
             view.showPauseOverlay();
         }
     }
-    
-    /**
-     * Resumes the game.
-     */
+
     public void resumeGame() {
         model.resumeGame();
         if (view != null) {
@@ -163,9 +125,7 @@ public class GameController implements GameObserver {
         }
     }
     
-    /**
-     * Returns to the main menu.
-     */
+
     public void returnToMenu() {
         model.pauseGame();
         if (view != null) {
@@ -173,18 +133,12 @@ public class GameController implements GameObserver {
         }
     }
     
-    /**
-     * Shows the options screen.
-     */
     public void showOptions() {
         if (view != null) {
             view.showOptionsScene();
         }
     }
     
-    /**
-     * Exits the game.
-     */
     public void exitGame() {
         stopGameLoop();
         GameLogger.getInstance().logInfo("Game exiting...");
@@ -193,15 +147,10 @@ public class GameController implements GameObserver {
     
     // ==================== INPUT HANDLING ====================
     
-    /**
-     * Handles key press events.
-     * 
-     * @param code The key code pressed
-     */
+
     public void handleKeyPressed(KeyCode code) {
         if (model.getCurrentState() == GameState.PLAYING) {
             switch (code) {
-                // Movement
                 case W:
                 case UP:
                     model.playerMoveUp(true);
@@ -219,7 +168,6 @@ public class GameController implements GameObserver {
                     model.playerMoveRight(true);
                     break;
                     
-                // Elemental transmutation
                 case DIGIT1:
                 case NUMPAD1:
                     model.playerTransmuteToFire();
@@ -237,12 +185,10 @@ public class GameController implements GameObserver {
                     model.playerTransmuteToAir();
                     break;
                     
-                // Special ability
                 case SPACE:
                     model.playerUseAbility();
                     break;
                     
-                // Pause
                 case ESCAPE:
                 case P:
                     pauseGame();
@@ -258,11 +204,6 @@ public class GameController implements GameObserver {
         }
     }
     
-    /**
-     * Handles key release events.
-     * 
-     * @param code The key code released
-     */
     public void handleKeyReleased(KeyCode code) {
         if (model.getCurrentState() == GameState.PLAYING) {
             switch (code) {
@@ -290,11 +231,6 @@ public class GameController implements GameObserver {
     
     // ==================== SETTINGS ====================
     
-    /**
-     * Sets the game difficulty.
-     * 
-     * @param difficulty Difficulty level (1-3)
-     */
     public void setDifficulty(int difficulty) {
         model.setDifficulty(difficulty);
         GameLogger.getInstance().logInfo("Difficulty set to " + difficulty);
@@ -319,7 +255,6 @@ public class GameController implements GameObserver {
                 }
                 break;
             case LEVEL_COMPLETED:
-                // View will show level transition
                 break;
             default:
                 break;

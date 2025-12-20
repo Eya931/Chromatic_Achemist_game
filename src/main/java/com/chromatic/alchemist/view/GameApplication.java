@@ -14,6 +14,7 @@ import javafx.stage.Stage;
  * Entry point for the JavaFX application.
  * Initializes the game window and manages scenes.
  */
+
 public class GameApplication extends Application {
     
     // Game dimensions
@@ -41,23 +42,14 @@ public class GameApplication extends Application {
         primaryStage.setTitle("Chromatic Alchemist");
         primaryStage.setResizable(false);
         
-        // Set application icon (if available)
-        try {
-            // primaryStage.getIcons().add(new Image(getClass().getResourceAsStream("/icon.png")));
-        } catch (Exception e) {
-            // Icon not found, continue without
-        }
-        
-        // Show menu scene
         gameView.showMenuScene();
         
-        // Size the stage to fit the scene content (important for proper sizing)
+        // Size the stage to fit the scene content
         primaryStage.sizeToScene();
         
         // Center the window on screen
         primaryStage.centerOnScreen();
         
-        // Start game loop
         controller.startGameLoop();
         
         // Handle window close
@@ -79,11 +71,6 @@ public class GameApplication extends Application {
         }
     }
     
-    /**
-     * Gets the primary stage.
-     * 
-     * @return The primary stage
-     */
     public Stage getPrimaryStage() {
         return primaryStage;
     }

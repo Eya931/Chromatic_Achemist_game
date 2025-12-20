@@ -11,19 +11,11 @@ import java.util.Random;
  * Generates game levels using the Composite pattern.
  * Creates hierarchical chamber structures with essences, obstacles, and power-ups.
  */
+
 public class LevelGenerator {
     
     private static final Random random = new Random();
     
-    /**
-     * Generates a level based on the level number.
-     * 
-     * @param levelNumber Level number (1-5)
-     * @param width Game width
-     * @param height Game height
-     * @param difficulty Difficulty (1-3)
-     * @return Generated level
-     */
     public static Level generateLevel(int levelNumber, double width, double height, int difficulty) {
         GameLogger.getInstance().logInfo("Generating level " + levelNumber);
         
@@ -47,6 +39,7 @@ public class LevelGenerator {
      * Level 1: Tutorial Chamber
      * Simple layout with basic essences, no obstacles.
      */
+
     private static Level generateLevel1(double width, double height, int difficulty) {
         // Create root chamber (simple)
         SimpleChamber root = new SimpleChamber("Initiation Chamber", 50, 50, width - 100, height - 100);
@@ -78,6 +71,7 @@ public class LevelGenerator {
      * Level 2: Dual Chambers
      * Introduces compound chambers with Water essences.
      */
+    
     private static Level generateLevel2(double width, double height, int difficulty) {
         // Create root compound chamber
         CompoundChamber root = new CompoundChamber("Elemental Duality", 30, 30, width - 60, height - 60);
@@ -130,6 +124,7 @@ public class LevelGenerator {
      * Level 3: Four Elements
      * All four element types with static obstacles.
      */
+
     private static Level generateLevel3(double width, double height, int difficulty) {
         CompoundChamber root = new CompoundChamber("Quadrant of Elements", 20, 20, width - 40, height - 40);
         root.setBackgroundColor("#0a0a15");
@@ -202,18 +197,17 @@ public class LevelGenerator {
      * Level 4: Nested Chambers
      * Introduces nested compound chambers with moving obstacles.
      */
+
     private static Level generateLevel4(double width, double height, int difficulty) {
         CompoundChamber root = new CompoundChamber("Alchemical Depths", 15, 15, width - 30, height - 30);
         root.setBackgroundColor("#050510");
         root.setBorderColor("#aa88ff");
         
-        // Main chamber area
         CompoundChamber innerCompound = new CompoundChamber("Inner Sanctum",
             root.getX() + 50, root.getY() + 50, root.getWidth() - 100, root.getHeight() - 100);
         innerCompound.setBackgroundColor("#0a0a1a");
         innerCompound.setBorderColor("#6666aa");
         
-        // Three nested chambers
         double innerWidth = (innerCompound.getWidth() - 40) / 3;
         double innerHeight = innerCompound.getHeight() - 40;
         
@@ -238,7 +232,6 @@ public class LevelGenerator {
         addRandomEssences(chamber3, 6 + difficulty, new String[]{"WHITE", "CYAN"}, 25);
         addMovingObstacles(chamber3, 1 + difficulty);
         
-        // Add power-ups
         chamber1.addPowerUp(new PowerUp(PowerUp.PowerUpType.MULTI_ABSORB,
             chamber1.getX() + chamber1.getWidth() / 2, chamber1.getY() + chamber1.getHeight() / 2, 8.0));
         chamber2.addPowerUp(new PowerUp(PowerUp.PowerUpType.MAGNET,
@@ -251,7 +244,6 @@ public class LevelGenerator {
         innerCompound.addComponent(chamber3);
         root.addComponent(innerCompound);
         
-        // Add essences in the outer area
         addRandomEssences(root, 4, new String[]{"YELLOW", "BROWN"}, 30);
         
         Level level = new Level(4, "Alchemical Depths", root);
@@ -269,26 +261,24 @@ public class LevelGenerator {
      * Level 5: Final Challenge
      * Complex nested structure with all obstacle types.
      */
+
     private static Level generateLevel5(double width, double height, int difficulty) {
         CompoundChamber root = new CompoundChamber("Philosopher's Nexus", 10, 10, width - 20, height - 20);
         root.setBackgroundColor("#000005");
         root.setBorderColor("#ffcc00");
         
-        // Central chamber
         CompoundChamber central = new CompoundChamber("Grand Athanor",
             root.getX() + root.getWidth() / 4, root.getY() + root.getHeight() / 4,
             root.getWidth() / 2, root.getHeight() / 2);
         central.setBackgroundColor("#100510");
         central.setBorderColor("#ff8800");
         
-        // Inner sanctum
         SimpleChamber sanctum = new SimpleChamber("Philosopher's Stone",
             central.getX() + central.getWidth() / 4, central.getY() + central.getHeight() / 4,
             central.getWidth() / 2, central.getHeight() / 2);
         sanctum.setBackgroundColor("#201010");
         sanctum.setBorderColor("#ffff00");
         
-        // Add golden essences to sanctum
         addRandomEssences(sanctum, 5 + difficulty * 2, new String[]{"YELLOW", "ORANGE"}, 50);
         addPulsingObstacles(sanctum, difficulty);
         
@@ -297,16 +287,13 @@ public class LevelGenerator {
         
         central.addComponent(sanctum);
         
-        // Add essences around central
         addRandomEssences(central, 8 + difficulty, new String[]{"RED", "BLUE", "GREEN", "WHITE"}, 30);
         addRotatingObstacles(central, difficulty);
         
         root.addComponent(central);
         
-        // Four corner chambers
         double cornerSize = root.getWidth() / 5;
         
-        // Top-left corner
         SimpleChamber tlCorner = new SimpleChamber("Fire Alcove",
             root.getX() + 20, root.getY() + 20, cornerSize, cornerSize);
         tlCorner.setBackgroundColor("#200505");
@@ -314,7 +301,6 @@ public class LevelGenerator {
         addRandomEssences(tlCorner, 4, new String[]{"RED"}, 25);
         addStaticObstacles(tlCorner, 1);
         
-        // Top-right corner
         SimpleChamber trCorner = new SimpleChamber("Water Alcove",
             root.getX() + root.getWidth() - cornerSize - 20, root.getY() + 20, cornerSize, cornerSize);
         trCorner.setBackgroundColor("#050520");
@@ -322,7 +308,6 @@ public class LevelGenerator {
         addRandomEssences(trCorner, 4, new String[]{"BLUE"}, 25);
         addStaticObstacles(trCorner, 1);
         
-        // Bottom-left corner
         SimpleChamber blCorner = new SimpleChamber("Earth Alcove",
             root.getX() + 20, root.getY() + root.getHeight() - cornerSize - 20, cornerSize, cornerSize);
         blCorner.setBackgroundColor("#052005");
@@ -330,7 +315,6 @@ public class LevelGenerator {
         addRandomEssences(blCorner, 4, new String[]{"GREEN"}, 25);
         addStaticObstacles(blCorner, 1);
         
-        // Bottom-right corner
         SimpleChamber brCorner = new SimpleChamber("Air Alcove",
             root.getX() + root.getWidth() - cornerSize - 20, 
             root.getY() + root.getHeight() - cornerSize - 20, cornerSize, cornerSize);
@@ -339,7 +323,6 @@ public class LevelGenerator {
         addRandomEssences(brCorner, 4, new String[]{"WHITE"}, 25);
         addStaticObstacles(brCorner, 1);
         
-        // Add power-ups to corners
         tlCorner.addPowerUp(new PowerUp(PowerUp.PowerUpType.SPEED_BOOST,
             tlCorner.getX() + cornerSize / 2, tlCorner.getY() + cornerSize / 2, 10.0));
         trCorner.addPowerUp(new PowerUp(PowerUp.PowerUpType.MAGNET,
@@ -354,7 +337,6 @@ public class LevelGenerator {
         root.addComponent(blCorner);
         root.addComponent(brCorner);
         
-        // Add outer essences
         addRandomEssences(root, 6, new String[]{"CYAN", "BROWN", "YELLOW"}, 35);
         
         Level level = new Level(5, "Philosopher's Nexus", root);
@@ -372,9 +354,6 @@ public class LevelGenerator {
     
     // ==================== HELPER METHODS ====================
     
-    /**
-     * Adds random essences to a chamber.
-     */
     private static void addRandomEssences(ChamberComponent chamber, int count, String[] colors, int pointValue) {
         double margin = 40;
         for (int i = 0; i < count; i++) {
@@ -385,9 +364,6 @@ public class LevelGenerator {
         }
     }
     
-    /**
-     * Adds static obstacles to a chamber.
-     */
     private static void addStaticObstacles(ChamberComponent chamber, int count) {
         double margin = 60;
         for (int i = 0; i < count; i++) {
@@ -397,9 +373,6 @@ public class LevelGenerator {
         }
     }
     
-    /**
-     * Adds moving obstacles to a chamber.
-     */
     private static void addMovingObstacles(ChamberComponent chamber, int count) {
         double margin = 80;
         for (int i = 0; i < count; i++) {
@@ -415,9 +388,6 @@ public class LevelGenerator {
         }
     }
     
-    /**
-     * Adds rotating obstacles to a chamber.
-     */
     private static void addRotatingObstacles(ChamberComponent chamber, int count) {
         double margin = 80;
         for (int i = 0; i < count; i++) {
@@ -429,9 +399,6 @@ public class LevelGenerator {
         }
     }
     
-    /**
-     * Adds pulsing obstacles to a chamber.
-     */
     private static void addPulsingObstacles(ChamberComponent chamber, int count) {
         double margin = 60;
         for (int i = 0; i < count; i++) {
