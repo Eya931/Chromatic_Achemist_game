@@ -461,3 +461,127 @@
 [2025-12-18 12:10:11] [INFO] Victory! Final Score: 5950
 [2025-12-18 12:10:16] [INFO] [STATE] Game: * -> MENU
 >>>>>>> 05ee1456388514214f091f856795a7e30d4ba0fc
+[2025-12-20 18:01:35] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:01:35] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:01:35] [INFO] Game started
+[2025-12-20 18:01:35] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:01:35] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:01:35] [INFO] Game started
+[2025-12-20 18:01:35] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:01:35] [INFO] Game paused
+[2025-12-20 18:01:35] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:01:35] [INFO] Game resumed
+[2025-12-20 18:03:19] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:03:19] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:03:19] [INFO] Game started
+[2025-12-20 18:03:19] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:03:19] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:03:19] [INFO] Game started
+[2025-12-20 18:03:19] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:03:19] [INFO] Game paused
+[2025-12-20 18:03:19] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:03:19] [INFO] Game resumed
+[2025-12-20 18:03:20] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:07:18] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:07:19] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:07:19] [INFO] Game started
+[2025-12-20 18:07:19] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:07:19] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:07:19] [INFO] Game started
+[2025-12-20 18:07:19] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:07:19] [INFO] Game paused
+[2025-12-20 18:07:19] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:07:19] [INFO] Game resumed
+[2025-12-20 18:07:19] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:03] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:03] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:10:03] [INFO] Game started
+[2025-12-20 18:10:03] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:03] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:10:03] [INFO] Game started
+[2025-12-20 18:10:03] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:10:03] [INFO] Game paused
+[2025-12-20 18:10:03] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:10:03] [INFO] Game resumed
+[2025-12-20 18:10:04] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:36] [INFO] [STATE] Game: * -> MENU
+[2025-12-20 18:10:39] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:40] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:10:40] [INFO] Game started
+[2025-12-20 18:11:11] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:11:11] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:11:28] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:11:28] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:11:54] [INFO] [STATE] Player Transmutation: FIRE -> EARTH
+[2025-12-20 18:11:54] [INFO] [STATE] Player Transmutation: FIRE -> EARTH
+[2025-12-20 18:12:03] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:12:03] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:12:09] [INFO] [STATE] Player Transmutation: AIR -> FIRE
+[2025-12-20 18:12:09] [INFO] [STATE] Player Transmutation: AIR -> FIRE
+[2025-12-20 18:12:10] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:12:10] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:12:10] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:12:10] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:12:11] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:12:11] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:12:30] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:12:30] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:12:31] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:12:31] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:12:32] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:12:32] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:13:46] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:13:46] [INFO] Game paused
+[2025-12-20 18:13:49] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:13:49] [INFO] Game resumed
+[2025-12-20 18:13:50] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:13:50] [INFO] Game paused
+[2025-12-20 18:13:50] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:13:50] [INFO] Game resumed
+[2025-12-20 18:15:07] [INFO] [STATE] Player Transmutation: FIRE -> EARTH
+[2025-12-20 18:15:07] [INFO] [STATE] Player Transmutation: FIRE -> EARTH
+[2025-12-20 18:15:56] [INFO] [STATE] Player Transmutation: EARTH -> FIRE
+[2025-12-20 18:15:56] [INFO] [STATE] Player Transmutation: EARTH -> FIRE
+[2025-12-20 18:15:56] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:15:56] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:15:57] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:15:57] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:15:59] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:15:59] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:16:02] [INFO] [STATE] Player Transmutation: AIR -> WATER
+[2025-12-20 18:16:02] [INFO] [STATE] Player Transmutation: AIR -> WATER
+[2025-12-20 18:16:05] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:16:05] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:16:17] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:16:17] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:16:19] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:16:19] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:16:20] [INFO] [STATE] Player Transmutation: FIRE -> EARTH
+[2025-12-20 18:16:20] [INFO] [STATE] Player Transmutation: FIRE -> EARTH
+[2025-12-20 18:16:20] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:16:20] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:16:31] [INFO] [STATE] Player Transmutation: AIR -> EARTH
+[2025-12-20 18:16:31] [INFO] [STATE] Player Transmutation: AIR -> EARTH
+[2025-12-20 18:16:41] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:16:41] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:16:57] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:16:57] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:17:08] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:17:08] [INFO] [STATE] Player Transmutation: EARTH -> WATER
+[2025-12-20 18:17:10] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:17:10] [INFO] [STATE] Player Transmutation: WATER -> FIRE
+[2025-12-20 18:17:23] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:17:23] [INFO] [STATE] Player Transmutation: FIRE -> WATER
+[2025-12-20 18:17:23] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:17:23] [INFO] [STATE] Player Transmutation: WATER -> EARTH
+[2025-12-20 18:17:26] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:17:26] [INFO] [STATE] Player Transmutation: EARTH -> AIR
+[2025-12-20 18:17:52] [INFO] [STATE] Game: PLAYING -> GAME_OVER
+[2025-12-20 18:17:52] [INFO] Game Over - Final Score: 4655
+[2025-12-20 18:17:52] [INFO] Game Over - Final Score: 4655
+[2025-12-20 18:17:57] [INFO] [STATE] Game: * -> MENU
+[2025-12-20 18:18:20] [INFO] [STATE] Game: * -> MENU
+[2025-12-20 18:18:31] [INFO] [STATE] Game: * -> MENU
+[2025-12-20 18:18:32] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:18:32] [INFO] [STATE] Game: GAME_OVER -> PLAYING
+[2025-12-20 18:18:32] [INFO] Game started

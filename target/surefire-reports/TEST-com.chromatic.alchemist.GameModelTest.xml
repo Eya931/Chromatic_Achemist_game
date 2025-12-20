@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.chromatic.alchemist.GameModelTest" time="1.587" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\3_cycle_ing\Design Patterns\Game_project\Chromatic_Achemist_game\target\test-classes;D:\3_cycle_ing\Design Patterns\Game_project\Chromatic_Achemist_game\target\classes;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-media\17.0.2\javafx-media-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-media\17.0.2\javafx-media-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Africa/Tunis"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo-R3\AppData\Local\Temp\surefire4035954138350350877\surefirebooter-20251220181001070_3.jar C:\Users\Lenovo-R3\AppData\Local\Temp\surefire4035954138350350877 2025-12-20T18-10-00_644-jvmRun1 surefire-20251220181001070_1tmp surefire_0-20251220181001070_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\3_cycle_ing\Design Patterns\Game_project\Chromatic_Achemist_game\target\test-classes;D:\3_cycle_ing\Design Patterns\Game_project\Chromatic_Achemist_game\target\classes;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-controls\17.0.2\javafx-controls-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-graphics\17.0.2\javafx-graphics-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-base\17.0.2\javafx-base-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-fxml\17.0.2\javafx-fxml-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-media\17.0.2\javafx-media-17.0.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\openjfx\javafx-media\17.0.2\javafx-media-17.0.2-win.jar;C:\Users\Lenovo-R3\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.0\junit-jupiter-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.0\junit-jupiter-api-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\platform\junit-platform-commons\1.10.0\junit-platform-commons-1.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.0\junit-jupiter-params-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.0\junit-jupiter-engine-5.10.0.jar;C:\Users\Lenovo-R3\.m2\repository\org\junit\platform\junit-platform-engine\1.10.0\junit-platform-engine-1.10.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo-R3"/>
+    <property name="user.language" value="fr"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\3_cycle_ing\Design Patterns\Game_project\Chromatic_Achemist_game"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo-R3\AppData\Local\Temp\surefire4035954138350350877\surefirebooter-20251220181001070_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.11+7-LTS-207"/>
+    <property name="user.name" value="Lenovo-R3"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo-R3\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\LENOVO~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.11"/>
+    <property name="user.dir" value="D:\3_cycle_ing\Design Patterns\Game_project\Chromatic_Achemist_game"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Lenovo-R3\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Lenovo-R3\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\Lenovo-R3\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mondossier;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\resources\bin;D:\Téléchargements\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Users\Lenovo-R3\AppData\Local\Programs\Python\Python311\;C:\Users\Lenovo-R3\AppData\Local\Programs\Python\Python311\Scripts\;c:\Quantum\venv\Scripts\;D:\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\mondossier;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-23\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Docker\Docker\;C:\Users\Lenovo-R3\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo-R3\AppData\Roaming\npm;c:\Users\Lenovo-R3\.vscode\extensions\vscjava.vscode-java-debug-0.58.4\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.11+7-LTS-207"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testStartGame" classname="com.chromatic.alchemist.GameModelTest" time="1.371">
+    <system-out><![CDATA[[2025-12-20 18:10:03] [INFO] [EVENT] Observer Subscribed: GameModel -> PLAYER_DIED
+[2025-12-20 18:10:03] [INFO] [EVENT] Observer Subscribed: GameModel -> LEVEL_COMPLETED
+[2025-12-20 18:10:03] [INFO] GameModel initialized
+[2025-12-20 18:10:03] [INFO] Initializing new game...
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Player (ID: 18c982c0) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:03] [INFO] Generating level 1
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: be478dcb) at (50.0, 50.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 3d715f09) at (248.21370720871727, 149.5311535498089)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 47e478ff) at (111.89258418373291, 415.3060697450777)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: d356e018) at (636.3864524185078, 420.7861529180049)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 4e10d8e6) at (113.8503023652273, 323.58947363958765)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: a1399748) at (561.4857962425042, 508.98319348348707)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 6a93780f) at (362.8119437166849, 247.1450625889247)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: e89a7f63) at (403.2958576344637, 414.14106293509036)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: daddb384) at (288.35259426830316, 126.77768361392756)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 47e468d0) at (638.993134257744, 357.2223997248865)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: f293b929) at (260.66331612374887, 278.44085654504954)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: 3745bda7) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] Generating level 2
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: d01620ad) at (30.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 9ca9e6b3) at (50.0, 50.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: a77a0cc1) at (410.0, 50.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 5ee2ae28) at (100.86472674016169, 298.20538859236046)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 08be88ed) at (196.40252806903266, 292.06750451474)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 70527729) at (307.57000492324346, 285.17427289383295)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 1d9dacef) at (116.69709005827946, 132.29587504160415)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 373f5f39) at (127.97046760519946, 164.62775920394802)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: b6552209) at (196.4963047370962, 301.8303185396978)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: b0b7f510) at (328.2296808854462, 482.8944268996477)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 26db8622) at (702.3422465700813, 392.08856733740686)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 3ed43ee6) at (451.78933736818686, 118.45573426771027)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 4b6b6360) at (546.4338549751615, 297.5216485234039)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: e81db41f) at (458.76000072692284, 276.5232581991861)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1888e2a2) at (491.26719554905225, 495.4746722298924)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 0dab38e8) at (519.2398228438556, 222.8212286026368)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1bc6b55a) at (657.6514824909164, 377.7031578425649)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 293e2b5a) at (220.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: d71abc1b) at (580.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fire Sanctum (inside Elemental Duality)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Water Sanctum (inside Elemental Duality)
+[2025-12-20 18:10:03] [INFO] Generating level 3
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 361ef623) at (20.0, 20.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 3f737a24) at (30.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 5451e57b) at (271.4513153973239, 205.4943492854134)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: d1a55136) at (277.83205156061365, 143.56696791359295)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: ce3a5c65) at (311.4088250178884, 142.51362016081026)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: f0d508e8) at (101.02488487232382, 202.7987610433584)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: de1e181e) at (205.68784101996445, 190.98404898320373)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: a1b9fce5) at (346.2133203597656, 87.25939491451778)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 308244ea) at (119.04494096719336, 95.74298451969035)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 5a7e1786) at (136.20745511284426, 123.49105391922123)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 6fb70bf5) at (405.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: b80e1a3e) at (584.8118244546582, 182.1150284360304)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 2ed2eb4f) at (475.8198113113587, 90.56112055049766)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 76a66f75) at (672.4685016816371, 239.22365807737583)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: ead33867) at (701.8719536023895, 75.838254842623)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: ed85527d) at (629.4587746966463, 190.32829422323164)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: c1b973ce) at (644.8285362906881, 137.52139782079132)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 3f6c1c85) at (509.55250140802383, 146.24261139323403)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: bd67498f) at (511.69830373348026, 98.69363914488162)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: aaef780b) at (30.0, 305.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 035e6461) at (272.2082175905796, 448.0944598076367)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: e0a51ee6) at (333.91832091148035, 498.66717102774373)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 7b82d9cb) at (147.72723391015984, 497.9064920003393)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: b87b5544) at (91.45203317763887, 400.7450977182195)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 309333ee) at (290.3657824119932, 471.1368683830284)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 0d7cb8c0) at (303.246255468634, 471.27144167333427)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 52650d61) at (116.45236085874143, 420.2696202454971)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: ad3ca02e) at (106.30956113811811, 371.6680861023353)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: a2a82ed2) at (405.0, 305.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: fde6b52d) at (670.8817975731589, 373.0540449243123)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: e89de338) at (593.0658685951616, 441.55229695174563)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 66b67bf4) at (507.33120152575253, 513.0232308986576)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 453dca27) at (537.4100062652457, 362.7630555741797)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 454d6bf7) at (492.4196086039591, 366.47058013746147)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 3ced66d6) at (469.7692285357956, 484.25124239007704)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: f36b5a04) at (622.3729065374226, 404.1547945063739)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: c17dd340) at (628.6852016391009, 406.57767639381683)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SCORE_MULTIPLIER (ID: af159d6f) at (212.5, 80.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-RANGE_BOOST (ID: 471bd04c) at (587.5, 80.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 47b07b9d) at (212.5, 355.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: ff0627f6) at (587.5, 355.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fire Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Water Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Earth Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Air Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] Generating level 4
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 13b2e326) at (15.0, 15.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: c30edc69) at (65.0, 65.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: b064106d) at (75.0, 85.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 8f03754f) at (237.13338269814483, 141.4977392831333)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 916407ed) at (125.28148411222244, 148.3480570583419)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 680e3ff4) at (159.08284876257468, 206.05337318142702)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 478414ec) at (234.59899033420277, 351.76147103212986)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 04aa603d) at (216.3191629001653, 253.1439058484712)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: a76b9195) at (244.09476681246727, 151.2078332148959)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 242fa534) at (177.6246746826608, 261.555571075604)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 67791250) at (155.0, 213.77242613570797)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 91ca92de) at (155.0, 388.33425986079214)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 01a3bb08) at (295.0, 85.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: c0985f06) at (415.7891902862331, 345.4939522491118)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 00f46728) at (445.96314053668175, 460.57942373936277)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 70bcf0ff) at (458.63885235001607, 367.93550883206825)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 7b3e9367) at (404.57486363760813, 358.51789844687676)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 50af6c5e) at (441.21084780913435, 465.651383184252)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 863052fb) at (340.1291103208067, 349.9024135323681)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 2e29f8ea) at (428.6905071007944, 242.8241649575597)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 86248e77) at (375.0, 422.78972167039626)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 3fc7d7bc) at (375.0, 325.9941394871733)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 59d56520) at (515.0, 85.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 726946e8) at (560.9196449716837, 393.5905482502099)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 29bfd973) at (611.0093990775817, 303.162109735325)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 3b23f174) at (629.9251803130592, 445.3307376341898)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 4c9a67b4) at (625.72677795096, 382.57091420649823)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 96ae25ac) at (573.922697470193, 471.7770535159197)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 1c2040dc) at (649.6145701827837, 342.525598712681)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: be10a9b2) at (624.8170770191866, 302.3624717242564)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 06f99393) at (595.0, 181.45052322127913)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: fcc69b64) at (595.0, 347.5101265702336)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MULTI_ABSORB (ID: 43601819) at (180.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: 478970dc) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 40301eb5) at (620.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Transmutation Lab (inside Inner Sanctum)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fusion Core (inside Inner Sanctum)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Ethereal Void (inside Inner Sanctum)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Inner Sanctum (inside Alchemical Depths)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: b76411e8) at (247.49855769859658, 486.78137001094717)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 182e8044) at (310.9058444472256, 242.4192831825972)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 638b98af) at (505.57577980286493, 98.36060178733874)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 38997a0b) at (481.5837546655379, 520.335154517893)
+[2025-12-20 18:10:03] [INFO] Generating level 5
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: c7d2427c) at (10.0, 10.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: e978de0e) at (205.0, 155.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 1691ae32) at (302.5, 227.5)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 1eb13e60) at (449.71732343768696, 321.0500262250785)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 2999bb72) at (398.91718384208446, 303.6801862233026)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 99151e1d) at (344.25611866285266, 298.2996181362996)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 372871bb) at (381.8445127211514, 317.74085388964966)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: ae88e571) at (392.0899476825771, 296.8054177559652)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 8ac0a64f) at (439.36329435097247, 316.41936982575027)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: f6b80912) at (422.96753883176365, 284.0628342797386)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-PULSING (ID: 9042a042) at (385.7316363620368, 277.72304962763405)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SCORE_MULTIPLIER (ID: 736ae236) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Philosopher's Stone (inside Grand Athanor)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 4ff9c2c7) at (327.92304822647407, 319.6380420755203)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 41e607f9) at (302.58898165526904, 264.2836532240352)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 2287faea) at (456.64763260615354, 375.2349559502064)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 68ee5783) at (364.0734860058997, 265.58517013830743)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: f0d0e0af) at (458.5936671426051, 338.627121853915)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 1546521a) at (265.0191664408244, 285.6621405319385)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 0755110b) at (357.44101983594265, 221.14308087230225)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 8d87f1a7) at (474.2673390719984, 225.61137200254313)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: b8299c10) at (346.0884067610033, 260.8612605241123)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-ROTATING (ID: 05e6bad5) at (403.85121018684606, 275.8910273985845)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Grand Athanor (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 11812e2a) at (30.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 73f99d9a) at (72.23141576019728, 118.25312305422236)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: d262301e) at (114.88151589468094, 75.7228153706527)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 7e964461) at (118.69927201548802, 76.93742266133575)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: bad46204) at (71.83327947177385, 75.19656077239631)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 4c1bb3a0) at (76.48040699635627, 93.90597452752023)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 5f7f9333) at (614.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: facdcc1a) at (687.9553710503559, 118.28731977188657)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 12ebc64e) at (710.0646917596655, 122.48435241189482)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 000da423) at (697.17277976678, 78.88125701893458)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 3b5499ac) at (673.1515476800386, 77.3104436637212)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 976d8e61) at (654.2999854707388, 90.1998816933944)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 8c010f4c) at (30.0, 414.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: ce3f0340) at (86.25883802788579, 507.2522176621829)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: c6cdb371) at (139.79629151064816, 500.1196658405175)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: de7e6bc5) at (118.93593809826334, 496.0237546504195)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: d5389f4d) at (108.57699374187388, 492.31205280973245)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 77e20c5a) at (76.5722010456199, 475.8780484132802)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: a4001b8f) at (614.0, 414.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 0e9a3996) at (696.6143592805856, 508.06493482709243)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: dd85f19b) at (714.1768875696542, 480.56526760048104)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 9ebcc305) at (709.2056005194964, 495.5513245330956)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: e5daee6a) at (679.4852804966116, 486.5910096947088)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 70a5e1db) at (671.4868374897038, 477.45256516237515)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: 0235a277) at (108.0, 108.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: b34adaae) at (692.0, 108.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 54fed7c1) at (108.0, 492.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MULTI_ABSORB (ID: 59e0329c) at (692.0, 492.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fire Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Water Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Earth Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Air Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 7a2e359b) at (438.8174780005847, 116.53127579728041)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 2aee9b2c) at (681.1929546361448, 273.9338919095147)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 6d49579c) at (98.39514834641687, 381.3957161858011)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 390c9341) at (420.82018231499165, 278.05684050010467)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: a9f9c9c4) at (219.0653351979904, 57.37847049526413)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 4e01ea00) at (146.05241683704804, 388.9175842406709)
+[2025-12-20 18:10:03] [INFO] Generated 5 levels
+[2025-12-20 18:10:03] [INFO] [LEVEL] Started Level 1: Initiation Chamber
+[2025-12-20 18:10:03] [INFO] [LEVEL] Started Level 1: Initiation Chamber
+[2025-12-20 18:10:03] [INFO] Game initialized successfully
+[2025-12-20 18:10:03] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:10:03] [INFO] Game started
+]]></system-out>
+  </testcase>
+  <testcase name="testInitialState" classname="com.chromatic.alchemist.GameModelTest" time="0.005">
+    <system-out><![CDATA[[2025-12-20 18:10:03] [INFO] [EVENT] Observer Subscribed: GameModel -> PLAYER_DIED
+[2025-12-20 18:10:03] [INFO] [EVENT] Observer Subscribed: GameModel -> LEVEL_COMPLETED
+[2025-12-20 18:10:03] [INFO] GameModel initialized
+]]></system-out>
+  </testcase>
+  <testcase name="testPauseAndResume" classname="com.chromatic.alchemist.GameModelTest" time="0.146">
+    <system-out><![CDATA[[2025-12-20 18:10:03] [INFO] [EVENT] Observer Subscribed: GameModel -> PLAYER_DIED
+[2025-12-20 18:10:03] [INFO] [EVENT] Observer Subscribed: GameModel -> LEVEL_COMPLETED
+[2025-12-20 18:10:03] [INFO] GameModel initialized
+[2025-12-20 18:10:03] [INFO] Initializing new game...
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Player (ID: 2f56e997) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [STATE] Player: NONE -> FIRE
+[2025-12-20 18:10:03] [INFO] Generating level 1
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 293356ab) at (50.0, 50.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 0904f634) at (591.5599988885785, 448.17414405941815)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: dc4d807e) at (430.42752404646666, 368.4510772574728)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: dea41d57) at (444.78994838805295, 98.64158423053186)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 6c67d975) at (270.92495666484683, 100.88991956294741)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 912890b8) at (435.2390918202352, 294.0144546293129)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: bfa2c656) at (696.2345347846089, 112.12932043193219)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 44b20ad5) at (406.47112966651105, 159.62788170856274)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: d8ed120d) at (102.73743795885555, 420.41921377781154)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: eaf24f65) at (271.3501287536522, 92.32489805429287)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: df5290ef) at (414.46499307459254, 136.2579268073847)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: c64d5049) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] Generating level 2
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 11c961cb) at (30.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: a97fa6b5) at (50.0, 50.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 1bb0c287) at (410.0, 50.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: c2cbff30) at (193.61999989116333, 406.45287375014146)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 26048440) at (339.991004251666, 483.25377840584946)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 6097d8ca) at (136.2960406901439, 262.1673085503101)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: d0156ee4) at (330.8023402643188, 347.7044552305531)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 1ad40ab3) at (345.23994378392723, 257.5754797849595)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 84896bf5) at (138.4591879519901, 259.3048984129258)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 42be867e) at (293.07850771207933, 286.96455767417285)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: e3be2a3e) at (696.9150722450877, 255.89395247842478)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: fc8ea5f2) at (522.8025922582533, 237.60733717822694)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: a91e0a07) at (634.575081740585, 208.09344954537025)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 2c52f03c) at (668.5551575276463, 122.2867812086715)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: b8e70e59) at (564.0668255869922, 112.68589049831182)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1f69d21e) at (560.0443498789158, 314.727145768286)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: e1b7e438) at (599.3611764103539, 246.01706779962555)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: ef27d839) at (220.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: aec47690) at (580.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fire Sanctum (inside Elemental Duality)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Water Sanctum (inside Elemental Duality)
+[2025-12-20 18:10:03] [INFO] Generating level 3
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: f8deb136) at (20.0, 20.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: d5c5e514) at (30.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 4197aa16) at (70.83212322399443, 113.46771277127222)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 34b3db31) at (190.0642332411585, 189.69494913489785)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 3f8104aa) at (293.1056311287516, 136.18539302674503)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: d4d67c1c) at (350.0663288975515, 149.38631941129626)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 9a703cc4) at (350.921484758137, 250.53110552597988)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: ca511aae) at (106.80963134640399, 140.27896808951613)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 0b0f9874) at (142.07882242586254, 193.9651484982009)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 67844ede) at (265.7868731382145, 92.24243791517249)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 94510c1e) at (405.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: b7837069) at (623.662663558596, 165.43937440702368)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: b94374b7) at (576.4905231002389, 223.2326457199002)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 61738061) at (657.4087292463973, 254.64712548109088)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 3aa81be7) at (504.0142250603084, 163.22081155630423)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 0b834e2e) at (477.53494098722354, 252.8035416578974)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1c70385c) at (703.2698972119483, 247.23021500134863)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: bd5280b4) at (637.941839554935, 161.85115726294651)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 370b4408) at (551.2135335681722, 137.86593991826894)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 8bfc7918) at (30.0, 305.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: c8f27c22) at (186.76439747878277, 519.0041937035803)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 553615b2) at (107.236399502599, 513.090377430089)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 30ad0587) at (178.0258797612733, 528.8090479947783)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: 25be5ef1) at (198.02600545901282, 395.22573655421115)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 1a80bee2) at (154.2772275820422, 390.26993250551885)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 4d220a31) at (73.96426799284005, 396.78717376630334)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 36aee9e2) at (142.40557188585612, 434.969596583499)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 072a57ef) at (225.1577006959928, 474.6230152700351)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: ec7801ef) at (405.0, 305.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 5fc3a5d1) at (541.833449129846, 520.9750666574446)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 18f1553d) at (687.77958054706, 487.9932858274803)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 24a99c3d) at (721.3955608434219, 445.78167400186237)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 0a14cde9) at (671.5980036672361, 420.5175141599606)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: dfe06171) at (689.927894556829, 457.15622387491555)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 37781a4f) at (670.336480968886, 354.21748969143437)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 808e25e6) at (636.901555057051, 440.41664971742387)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: c3c7eba5) at (560.0291118450281, 415.8322271316474)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SCORE_MULTIPLIER (ID: aa5c062e) at (212.5, 80.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-RANGE_BOOST (ID: 06025036) at (587.5, 80.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: e2b38919) at (212.5, 355.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: f906d382) at (587.5, 355.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fire Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Water Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Earth Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Air Quadrant (inside Quadrant of Elements)
+[2025-12-20 18:10:03] [INFO] Generating level 4
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 9c532212) at (15.0, 15.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 2a5402ea) at (65.0, 65.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: db1cad2f) at (75.0, 85.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 753222ac) at (127.85425790807369, 200.67608940090486)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 92e96916) at (140.83835455821574, 207.9196201878875)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: ff8cf9ef) at (198.31926032389174, 199.63704951249423)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 1f0ef2e8) at (187.49761530230137, 142.77444415203655)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 46bccca0) at (157.8763465324646, 189.0797738000105)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 243b19aa) at (171.48015546977658, 186.27973454844764)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 2393b26f) at (129.1045595643338, 380.87690842863435)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 38500b44) at (155.0, 211.0531174129637)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 65c79395) at (155.0, 231.2362141952471)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: a7c19b1e) at (295.0, 85.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 2df21cee) at (436.08072190304733, 156.98918705648845)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 2eb951cb) at (428.89207051971823, 187.62989972251071)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 5a6f22ef) at (420.45937171848874, 453.79312846652755)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 82d4ed0b) at (381.46027107244043, 356.24232104508064)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: cc5f3512) at (458.98666346431986, 316.97354325733295)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: b0c33141) at (447.9769169795579, 435.05815650448113)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 927a1405) at (460.193770865612, 224.41041494736857)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 37b9ab94) at (375.0, 316.57853359842943)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: bfcc32f3) at (375.0, 331.5022971392066)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 783dcaa3) at (515.0, 85.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 33b72c6f) at (575.5366328610304, 125.43030002974318)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: df4b67d9) at (561.1109395031283, 236.01830780592866)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 980296e3) at (570.749512119842, 294.7117851619769)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: bdd0516e) at (579.1373057256957, 447.74867275662626)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: c6ccedeb) at (600.9200226403873, 190.8519411181337)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1342b5ae) at (635.0403976801957, 315.67491867804773)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1fccbc48) at (665.177432162647, 311.79131256507355)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: d3b2e4fb) at (595.0, 396.0602821243037)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: f3d33b0f) at (595.0, 246.5178852574084)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MULTI_ABSORB (ID: dbaf0c1e) at (180.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: 0c008096) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 8194f5c7) at (620.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Transmutation Lab (inside Inner Sanctum)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fusion Core (inside Inner Sanctum)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Ethereal Void (inside Inner Sanctum)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Inner Sanctum (inside Alchemical Depths)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: eb28f3a1) at (229.0318945237527, 400.73521950334657)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: f21d105f) at (65.80723159734585, 247.44125898776562)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: c0c03ddb) at (345.82343564626905, 402.17660987484817)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: e8e75878) at (159.2114316853959, 133.76383645848648)
+[2025-12-20 18:10:03] [INFO] Generating level 5
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 53f8fe93) at (10.0, 10.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: CompoundChamber (ID: 8800c217) at (205.0, 155.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 00a2f2ed) at (302.5, 227.5)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 1d8cbbd6) at (415.28774448526895, 286.4957437905649)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 11177184) at (438.1473018934756, 317.9533263760879)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 84c29b59) at (344.31085370922483, 296.5001313765009)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: d8f6f1bd) at (424.3806967753863, 309.0255307564628)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: fdff0073) at (370.99971946476063, 279.3692512853646)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 3266a3ca) at (355.4155256224615, 330.8499104993394)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 92a2dc9b) at (427.3708098645671, 275.77184113483816)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-PULSING (ID: 26ede855) at (375.3182392713856, 280.0397425007381)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SCORE_MULTIPLIER (ID: 44e6f160) at (400.0, 300.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Philosopher's Stone (inside Grand Athanor)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 936d896a) at (422.2623363161356, 330.04116383146663)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 637a6f43) at (404.9234946958544, 338.77772759654465)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 087c909f) at (420.72434398895416, 260.8223348558967)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: f62cee84) at (328.7555823459281, 280.6450181223935)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: a6132abc) at (498.8002250133103, 295.4666287283153)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: d2f2c678) at (399.7790685749561, 402.6105976194714)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 44154ce3) at (539.8164398189502, 212.11996917134883)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: f722bf3f) at (340.0718423736872, 338.90706400482406)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: ab29ca14) at (317.3877497733024, 212.36231653797637)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-ROTATING (ID: 74aff2fa) at (410.0927270990391, 271.1666389504096)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Grand Athanor (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: c4d4a6b6) at (30.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: ccf5ad33) at (144.1202110078471, 104.7313183556481)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 1f0d5003) at (121.44053285734095, 81.18035199452592)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 1bd4b318) at (73.16090192722184, 75.27939990323985)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-RED (ID: 6f03cdda) at (88.57125029965431, 126.00836286905175)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 197d2a85) at (69.80208139235063, 94.2480822534716)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 4dbcc5be) at (614.0, 30.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: dc94dc40) at (729.489666143706, 86.03534136495071)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 19b7ea38) at (715.395815840958, 115.37012442814213)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: b41ccd60) at (722.2425776106847, 138.5537307882254)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BLUE (ID: 08f27af6) at (717.7838944265335, 78.99518081632263)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: f80f743a) at (657.9269796239803, 92.18887363647752)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: 065a79bb) at (30.0, 414.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: aee8d706) at (103.6307396428137, 489.2715408541176)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: fb0a09e6) at (92.18295471597716, 509.9145628347035)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 35accaf8) at (70.86034369901674, 474.4807047916753)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-GREEN (ID: 31f6ba18) at (132.30385335043766, 483.3119864284171)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: ed196bc4) at (83.21759573736291, 475.17798093456315)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: SimpleChamber (ID: f5760db0) at (614.0, 414.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 2bb4b080) at (655.8417858364057, 499.53939787232986)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: 9d1ba71a) at (721.4559658847083, 508.32207233406433)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: a092b0a6) at (689.7715658355849, 504.31331152358575)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-WHITE (ID: a3ee0f35) at (699.4666418185125, 465.8264094908916)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: ae2a25a0) at (666.6916727418673, 475.6322700319778)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: 118bf0a8) at (108.0, 108.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: 69cf8ee6) at (692.0, 108.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 482f91a1) at (108.0, 492.0)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: PowerUp-MULTI_ABSORB (ID: fb44dce6) at (692.0, 492.0)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Fire Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Water Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Earth Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [LEVEL] Entered chamber: Air Alcove (inside Philosopher's Nexus)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: e680b35f) at (251.39197281140486, 372.56591746338427)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: adeaf72d) at (138.92512104471658, 230.50975710061118)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: eb87d98a) at (580.0933087816358, 388.3627141289631)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-BROWN (ID: a19eb061) at (412.62608201262657, 490.92819040761094)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-YELLOW (ID: a2aafb5b) at (123.3919714243218, 199.96044667908586)
+[2025-12-20 18:10:03] [INFO] [ENTITY] Created: Essence-CYAN (ID: 60f388a3) at (362.32769445009126, 331.6143886850343)
+[2025-12-20 18:10:03] [INFO] Generated 5 levels
+[2025-12-20 18:10:03] [INFO] [LEVEL] Started Level 1: Initiation Chamber
+[2025-12-20 18:10:03] [INFO] [LEVEL] Started Level 1: Initiation Chamber
+[2025-12-20 18:10:03] [INFO] Game initialized successfully
+[2025-12-20 18:10:03] [INFO] [STATE] Game: MENU -> PLAYING
+[2025-12-20 18:10:03] [INFO] Game started
+[2025-12-20 18:10:03] [INFO] [STATE] Game: PLAYING -> PAUSED
+[2025-12-20 18:10:03] [INFO] Game paused
+[2025-12-20 18:10:03] [INFO] [STATE] Game: PAUSED -> PLAYING
+[2025-12-20 18:10:03] [INFO] Game resumed
+]]></system-out>
+  </testcase>
+</testsuite>
