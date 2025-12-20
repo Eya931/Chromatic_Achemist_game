@@ -4436,3 +4436,1507 @@
 [2025-12-12 23:14:05] [INFO] [ENTITY] Created: Essence-CYAN (ID: 6581c1ed) at (891.5374296714857, 380.98457881619487)
 [2025-12-12 23:14:05] [INFO] [ENTITY] Created: Essence-BROWN (ID: 792be4e8) at (119.47352156693202, 520.3296440626998)
 [2025-12-12 23:14:05] [INFO] [ENTITY] Created: Essence-BROWN (ID: 9bfc24b3) at (816.2918335895348, 651.8772101235483)
+[2025-12-14 13:00:53] [INFO] [EVENT] Observer Subscribed: GameModel -> PLAYER_DIED
+[2025-12-14 13:00:53] [INFO] [EVENT] Observer Subscribed: GameModel -> LEVEL_COMPLETED
+[2025-12-14 13:00:53] [INFO] [EVENT] Observer Subscribed: GameController -> GAME_OVER
+[2025-12-14 13:00:53] [INFO] [EVENT] Observer Subscribed: GameController -> GAME_VICTORY
+[2025-12-14 13:00:53] [INFO] [EVENT] Observer Subscribed: GameController -> LEVEL_COMPLETED
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Player (ID: 6e7cc3c4) at (512.0, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: eadb7779) at (50.0, 50.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: ba65cbc5) at (868.9204421031528, 353.6000845713941)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 8310307a) at (370.7446093620063, 501.32932640269553)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 050f0595) at (97.3870173325538, 318.3890123739301)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: b32766f7) at (727.4467861520153, 134.38164299605262)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 76ee456b) at (827.0164602960585, 432.31472986812446)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 2cfcc055) at (288.2190077051574, 537.5980734041332)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 62f8f455) at (888.0183241851498, 105.38245950824269)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 860c410d) at (672.6698340070732, 536.7651187874508)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 916b11c3) at (548.3959272238016, 326.68550923311403)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 6a77734b) at (559.7570379671286, 654.8608332792328)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: 0e818a96) at (512.0, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: CompoundChamber (ID: 62936abd) at (30.0, 30.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: d219db2f) at (50.0, 50.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 63573012) at (522.0, 50.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: a06ef033) at (349.1278061460143, 365.08695703634965)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 61d5cf23) at (224.27136383760524, 157.57944591372512)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 073302b1) at (421.9560118695063, 200.43478741368733)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 48681b5e) at (193.2300115790039, 388.5477614105704)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 3f9740ef) at (340.7550770065227, 118.31117310150043)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 1738ae22) at (113.68019163683735, 413.27140729066406)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: c5b94937) at (323.0077882001421, 196.74509387693493)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 5209509a) at (721.9977961070757, 473.930504043575)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 3dcac248) at (667.4916142767628, 152.98765989258135)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 75c3a1c9) at (899.9509055454009, 97.32371450919192)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: a2b52dc1) at (802.6034450343692, 290.57494272250256)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 39e77ce0) at (902.5561976740565, 300.061146909067)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 7c1447dd) at (574.2007032503111, 416.8969710655368)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: fc0069c8) at (874.6185178023661, 288.8580322776179)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 5a83da53) at (276.0, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: 50b43217) at (748.0, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: CompoundChamber (ID: 96127dba) at (20.0, 20.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: d783d607) at (30.0, 30.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: a9ec2c8b) at (302.96522070598087, 200.39773590752276)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: da57d5c3) at (187.45041899555272, 255.00761538438155)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 72515e3b) at (210.81854391067762, 284.69512758500105)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: e93c348e) at (154.5485842218887, 267.71881111024913)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 16fdc99e) at (82.44440216814972, 133.592385226693)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: ef282753) at (281.49540559046267, 151.5857150778698)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 6d8f835e) at (362.4607811283082, 236.1638556432385)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 20995c0d) at (327.1508846625602, 192.59900827006004)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 078813e8) at (517.0, 30.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: eccce2b4) at (856.1267885493716, 164.0517846664346)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 5f213efb) at (906.8249168452012, 157.96956173529992)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: e834e4b0) at (913.8946789716363, 275.2240871005163)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 1523b7d7) at (845.5473639012503, 216.77457625053208)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 109707e8) at (679.4639050220757, 234.4023898819958)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: ceb355c7) at (767.8232652436759, 208.27466973742932)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 066ef75c) at (858.331224065802, 117.5410705455377)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 21d1b6c5) at (797.4332836884893, 233.5216780973112)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: ddbb2d89) at (30.0, 389.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 697649ff) at (440.8152709962998, 510.40778353559523)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 0ad2d29c) at (274.9232913414228, 430.3010070188829)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 266887b2) at (274.6816257773085, 432.23319014991876)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: b3f241da) at (300.2305565890491, 541.5765767855148)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 6d2034ea) at (93.31110511662055, 452.02618192071026)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: d6a1b13c) at (418.81689844350143, 530.3004458062054)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: ae89b186) at (256.5688291810919, 523.1953356539398)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 04aa183d) at (200.18635422077722, 524.7582265618847)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 3405c73f) at (517.0, 389.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 89fb0659) at (647.1653571985203, 649.4744503595675)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: fc588b95) at (809.1863165904743, 437.5987134123657)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 272c6c54) at (658.0417837790865, 687.6483238394076)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 602fa93d) at (584.0696038070921, 583.8144110008188)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: b1d9d82b) at (680.959416900424, 461.08084974751154)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: f9f813fc) at (612.2360558550215, 577.6624650891044)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 8b8543d3) at (760.4254689064762, 512.0651214175143)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 28ff3a2d) at (645.7495202548898, 568.9586368029976)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SCORE_MULTIPLIER (ID: 6cc515f1) at (268.5, 80.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-RANGE_BOOST (ID: c5e36559) at (755.5, 80.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 2da9c264) at (268.5, 439.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: df36a337) at (755.5, 439.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: CompoundChamber (ID: a783f5da) at (15.0, 15.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: CompoundChamber (ID: d7bb2f3b) at (65.0, 65.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 39188a24) at (75.0, 85.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: da2ef663) at (239.59254234942148, 232.71067897881917)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: a1cb4301) at (153.62567336181277, 608.3986099393042)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 935c249a) at (193.82210947525797, 439.1519554823151)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 427f272f) at (237.9657895570437, 302.7938045692939)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: f02540c4) at (289.72874078437076, 170.3657233935384)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 78ce8af1) at (301.7515430624528, 258.6903646607882)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 9c7af720) at (198.23674313538572, 378.19728640949756)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 1457cce8) at (155.0, 399.9356723187667)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: e76869fd) at (155.0, 573.5698626597837)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: e6f49038) at (369.6666666666667, 85.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 376d02b3) at (582.6540167179255, 133.22243325248377)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 2e1a35d6) at (471.9485089302348, 373.387283519637)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: ea71f036) at (441.73934120229836, 137.31438292724786)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: f03e4d35) at (527.5386944624047, 126.43009710384331)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 31c68ec3) at (591.890418351615, 523.4070940958026)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 649eab32) at (564.66041537911, 325.17168341253625)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: a3b8ec83) at (591.2476610893023, 232.83524895160397)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 7d319262) at (449.6666666666667, 476.7570745330664)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: ee583271) at (449.6666666666667, 464.0029850451892)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 7dc2866d) at (664.3333333333334, 85.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: a0d27ade) at (801.8135507016789, 278.86205907794715)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 9d182b9c) at (707.4483520700333, 445.00636201127134)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: 08cab871) at (841.5092032583464, 371.8073702380451)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 0810c576) at (744.587201038316, 534.4141356533657)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: f10d7322) at (730.4925071704705, 298.6658644966699)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: f0176526) at (799.4227992597577, 637.283984367279)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: fffd6c12) at (806.3649509370568, 231.13210084382013)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 39cc7fdb) at (744.3333333333334, 468.38117350979707)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-MOVING (ID: 62c3dae1) at (744.3333333333334, 400.68931410165095)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-MULTI_ABSORB (ID: 2250f713) at (217.33333333333334, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: e69c3783) at (512.0, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 09620902) at (806.6666666666667, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: b8aa3eeb) at (867.8564966778108, 412.30795581657287)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BROWN (ID: f9dd0f88) at (861.8146961413964, 451.1570357462588)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BROWN (ID: b040bcef) at (684.8417754948093, 628.9393874871068)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BROWN (ID: fba2caa3) at (586.5234341298634, 94.04632372656287)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: CompoundChamber (ID: 810287d5) at (10.0, 10.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: CompoundChamber (ID: 59286620) at (261.0, 197.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 9579c96f) at (386.5, 290.5)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 5aef6020) at (458.36255432203444, 364.9422315300906)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 393cdf64) at (554.4464100596293, 358.1721718216138)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-ORANGE (ID: 38ffa638) at (502.8821397889288, 365.2440409472274)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: aaa76232) at (546.3104931635753, 366.1299023579641)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: fa29194d) at (440.8556125403213, 410.9193166008987)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: f51c2d4c) at (522.4356458754471, 351.1267727124348)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: a1af27ab) at (487.0495374793394, 399.32657835072416)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-PULSING (ID: 7823fc3c) at (528.7160432437764, 354.16452723278036)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SCORE_MULTIPLIER (ID: 6e130675) at (512.0, 384.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: 29b60a79) at (636.253845860017, 312.8411740722084)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: dbbf0831) at (358.2888220281481, 376.5464139731023)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: 0fdd0409) at (368.0712799636127, 267.64755155040126)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 3a6ee7c3) at (348.657732712564, 349.31789360549556)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 16177cab) at (530.4166913602872, 239.35551499819243)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 6ae5aa32) at (662.7978905465136, 455.8169100038855)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: c2e1798e) at (516.6100741888583, 274.1171868756674)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 42682a45) at (432.44783914110656, 330.7345242435761)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 821204a2) at (521.1942452918411, 327.14987846924066)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-ROTATING (ID: 7f909ebe) at (459.06530792673, 338.7804500547513)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 5878c374) at (30.0, 30.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 361731e3) at (171.9792694372116, 172.12388224906834)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 39a38897) at (71.94715764654408, 135.63500024393858)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: 182c8200) at (106.71396619214207, 120.99048740299281)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-RED (ID: f746811f) at (124.11644846516312, 108.23646924090816)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: b2d95404) at (97.10029709886247, 99.29653889882522)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: d07f6c27) at (793.2, 30.0)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 401fbc4f) at (948.6256891206838, 120.5034199043998)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 3365f8f2) at (952.3849421457566, 120.27766605315458)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: f04eb9c2) at (926.0755819235122, 106.91624843824016)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BLUE (ID: 2a77382a) at (942.9452476243206, 175.17532664603345)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: c0e49ea2) at (867.6024977242653, 140.41379958905435)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 09eac1a5) at (30.0, 537.2)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 3ce8b1df) at (119.15410271512764, 693.9956901089063)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: c69efba0) at (92.54506079523622, 670.7707271358289)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: 14d2f0c0) at (93.66613863381153, 611.1211606986774)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-GREEN (ID: e31a7ebe) at (187.85355222660513, 608.154160464151)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: b7ab5c62) at (91.0693735926326, 598.5924862409164)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: SimpleChamber (ID: 5bbc3da7) at (793.2, 537.2)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: d8393c3b) at (849.8711989035605, 660.8165938072611)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: bcd10a7e) at (865.2919917231989, 668.1999653573316)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: dc7a0612) at (849.306738686776, 693.0570809737337)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-WHITE (ID: 7994efee) at (850.4960432893043, 655.7737068919328)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Obstacle-STATIC (ID: 5bd528a3) at (856.7312159414718, 635.5508659688813)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SPEED_BOOST (ID: 6023360a) at (130.4, 130.4)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-MAGNET (ID: 4d441d9a) at (893.6, 130.4)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-SHIELD (ID: 549628ae) at (130.4, 637.6)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: PowerUp-MULTI_ABSORB (ID: 03367897) at (893.6, 637.6)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: 5e9c7de6) at (472.69990507903253, 137.55436744365318)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: b4c16455) at (583.4684660626448, 452.16744228291475)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-BROWN (ID: af2b49dd) at (169.95474297056694, 76.30897279724067)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: ba30e985) at (350.28054334613046, 545.1384206832897)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-CYAN (ID: e0104f8b) at (744.3958798125863, 332.2669363782937)
+[2025-12-14 13:00:59] [INFO] [ENTITY] Created: Essence-YELLOW (ID: 916f4011) at (524.866775303296, 713.2355519400592)
+[2025-12-14 13:01:04] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=10.0, powerUpType=Speed Boost}, timestamp=1765713664535}
+[2025-12-14 13:01:04] [INFO] [COLLISION] Player collected power-up: Speed Boost
+[2025-12-14 13:01:05] [INFO] [EVENT] Score: 0 -> 10 (Essence absorbed: RED)
+[2025-12-14 13:01:05] [INFO] [EVENT] Score: 0 -> 10 (Essence absorbed: RED)
+[2025-12-14 13:01:05] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:05] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:06] [INFO] [EVENT] Score: 10 -> 20 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:06] [INFO] [EVENT] Score: 10 -> 20 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:06] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:06] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:07] [INFO] [EVENT] Score: 20 -> 30 (Essence absorbed: RED)
+[2025-12-14 13:01:07] [INFO] [EVENT] Score: 20 -> 30 (Essence absorbed: RED)
+[2025-12-14 13:01:07] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:07] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:10] [INFO] [EVENT] Score: 30 -> 40 (Essence absorbed: RED)
+[2025-12-14 13:01:10] [INFO] [EVENT] Score: 30 -> 40 (Essence absorbed: RED)
+[2025-12-14 13:01:10] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:10] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:14] [INFO] [EVENT] Score: 40 -> 50 (Essence absorbed: RED)
+[2025-12-14 13:01:14] [INFO] [EVENT] Score: 40 -> 50 (Essence absorbed: RED)
+[2025-12-14 13:01:14] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:14] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:14] [INFO] [EVENT] Score: 50 -> 150 (Recipe completed: First Spark)
+[2025-12-14 13:01:14] [INFO] [EVENT] Score: 50 -> 150 (Recipe completed: First Spark)
+[2025-12-14 13:01:14] [INFO] [EVENT] RECIPE_COMPLETED: GameEvent{type=RECIPE_COMPLETED, data={recipeName=First Spark, bonusPoints=100}, timestamp=1765713674791}
+[2025-12-14 13:01:16] [INFO] [EVENT] Score: 150 -> 160 (Essence absorbed: RED)
+[2025-12-14 13:01:16] [INFO] [EVENT] Score: 150 -> 160 (Essence absorbed: RED)
+[2025-12-14 13:01:16] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:16] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:17] [INFO] [EVENT] Score: 160 -> 170 (Essence absorbed: RED)
+[2025-12-14 13:01:17] [INFO] [EVENT] Score: 160 -> 170 (Essence absorbed: RED)
+[2025-12-14 13:01:17] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:17] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:19] [INFO] [EVENT] Score: 170 -> 180 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:19] [INFO] [EVENT] Score: 170 -> 180 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:19] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:19] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:23] [INFO] [EVENT] Score: 180 -> 190 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:23] [INFO] [EVENT] Score: 180 -> 190 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:23] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:23] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:24] [INFO] [EVENT] Score: 190 -> 200 (Essence absorbed: RED)
+[2025-12-14 13:01:24] [INFO] [EVENT] Score: 190 -> 200 (Essence absorbed: RED)
+[2025-12-14 13:01:24] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:24] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:24] [INFO] [EVENT] Score: 200 -> 400 (Recipe completed: Fire & Ice)
+[2025-12-14 13:01:24] [INFO] [EVENT] Score: 200 -> 400 (Recipe completed: Fire & Ice)
+[2025-12-14 13:01:24] [INFO] [EVENT] RECIPE_COMPLETED: GameEvent{type=RECIPE_COMPLETED, data={recipeName=Fire & Ice, bonusPoints=200}, timestamp=1765713684502}
+[2025-12-14 13:01:28] [INFO] [EVENT] Score: 400 -> 415 (Essence absorbed: RED)
+[2025-12-14 13:01:28] [INFO] [EVENT] Score: 400 -> 415 (Essence absorbed: RED)
+[2025-12-14 13:01:28] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:28] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:29] [INFO] [EVENT] Score: 415 -> 430 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:29] [INFO] [EVENT] Score: 415 -> 430 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:29] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:29] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:30] [INFO] [EVENT] Score: 430 -> 445 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:30] [INFO] [EVENT] Score: 430 -> 445 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:30] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:30] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:31] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=15.0, powerUpType=Shield}, timestamp=1765713691221}
+[2025-12-14 13:01:31] [INFO] [COLLISION] Player collected power-up: Shield
+[2025-12-14 13:01:31] [INFO] [EVENT] Score: 445 -> 460 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:31] [INFO] [EVENT] Score: 445 -> 460 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:31] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:31] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:31] [INFO] [EVENT] Score: 460 -> 475 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:31] [INFO] [EVENT] Score: 460 -> 475 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:31] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:31] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:33] [INFO] [EVENT] Score: 475 -> 490 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:33] [INFO] [EVENT] Score: 475 -> 490 (Essence absorbed: ORANGE)
+[2025-12-14 13:01:33] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:33] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:01:33] [INFO] [EVENT] Score: 490 -> 505 (Essence absorbed: RED)
+[2025-12-14 13:01:33] [INFO] [EVENT] Score: 490 -> 505 (Essence absorbed: RED)
+[2025-12-14 13:01:33] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:33] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:01:37] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=12.0, powerUpType=Magnet}, timestamp=1765713697494}
+[2025-12-14 13:01:37] [INFO] [COLLISION] Player collected power-up: Magnet
+[2025-12-14 13:02:08] [INFO] [EVENT] Fire Ability: BURST activated - Speed x2 for 2 seconds
+[2025-12-14 13:02:08] [INFO] [EVENT] Player: Temporary speed boost x2,0 for 2,0s
+[2025-12-14 13:02:09] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,7s remaining)
+[2025-12-14 13:02:09] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,6s remaining)
+[2025-12-14 13:02:09] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,4s remaining)
+[2025-12-14 13:02:10] [INFO] [EVENT] Player: Temporary speed boost ended
+[2025-12-14 13:02:14] [INFO] [EVENT] Fire Ability: BURST activated - Speed x2 for 2 seconds
+[2025-12-14 13:02:14] [INFO] [EVENT] Player: Temporary speed boost x2,0 for 2,0s
+[2025-12-14 13:02:14] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,8s remaining)
+[2025-12-14 13:02:16] [INFO] [EVENT] Player: Temporary speed boost ended
+[2025-12-14 13:02:50] [INFO] [EVENT] Fire Ability: BURST activated - Speed x2 for 2 seconds
+[2025-12-14 13:02:50] [INFO] [EVENT] Player: Temporary speed boost x2,0 for 2,0s
+[2025-12-14 13:02:50] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,8s remaining)
+[2025-12-14 13:02:50] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,7s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,5s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,0s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (4,0s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,9s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,9s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,9s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,8s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,8s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,8s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,8s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,7s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,7s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,7s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,6s remaining)
+[2025-12-14 13:02:51] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,6s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,6s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,5s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,5s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,5s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,4s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,4s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,4s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,4s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,3s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,3s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,3s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,2s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,2s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,2s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,1s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,1s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,1s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,0s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,0s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Player: Temporary speed boost ended
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,0s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (3,0s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (2,9s remaining)
+[2025-12-14 13:02:52] [INFO] [EVENT] Fire Ability: BURST on cooldown (2,9s remaining)
+[2025-12-14 13:02:59] [INFO] [EVENT] Fire State: Exiting fire state
+[2025-12-14 13:02:59] [INFO] [EVENT] Water State: Player now absorbs BLUE and CYAN essences
+[2025-12-14 13:03:00] [INFO] [EVENT] Water State: Exiting water state
+[2025-12-14 13:03:00] [INFO] [EVENT] Earth State: Player now absorbs GREEN and BROWN essences
+[2025-12-14 13:03:09] [INFO] [EVENT] Earth State: Exiting earth state
+[2025-12-14 13:03:09] [INFO] [EVENT] Air State: Player now absorbs WHITE and YELLOW essences
+[2025-12-14 13:03:18] [INFO] [EVENT] Air State: Exiting air state
+[2025-12-14 13:03:18] [INFO] [EVENT] Fire State: Player now absorbs RED and ORANGE essences
+[2025-12-14 13:03:21] [INFO] [EVENT] Fire State: Exiting fire state
+[2025-12-14 13:03:21] [INFO] [EVENT] Water State: Player now absorbs BLUE and CYAN essences
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 505 -> 520 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 505 -> 520 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 520 -> 535 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 520 -> 535 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 535 -> 550 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 535 -> 550 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 550 -> 565 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 550 -> 565 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 565 -> 580 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 565 -> 580 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 580 -> 595 (Essence absorbed: CYAN)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 580 -> 595 (Essence absorbed: CYAN)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 595 -> 610 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 595 -> 610 (Essence absorbed: BLUE)
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 610 -> 910 (Recipe completed: Elemental Mastery)
+[2025-12-14 13:03:25] [INFO] [EVENT] Score: 610 -> 910 (Recipe completed: Elemental Mastery)
+[2025-12-14 13:03:25] [INFO] [EVENT] RECIPE_COMPLETED: GameEvent{type=RECIPE_COMPLETED, data={recipeName=Elemental Mastery, bonusPoints=300}, timestamp=1765713805609}
+[2025-12-14 13:03:29] [INFO] [EVENT] Score: 910 -> 930 (Essence absorbed: CYAN)
+[2025-12-14 13:03:29] [INFO] [EVENT] Score: 910 -> 930 (Essence absorbed: CYAN)
+[2025-12-14 13:03:29] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:29] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:31] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=12.0, powerUpType=Range Boost}, timestamp=1765713811173}
+[2025-12-14 13:03:31] [INFO] [COLLISION] Player collected power-up: Range Boost
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 930 -> 950 (Essence absorbed: BLUE)
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 930 -> 950 (Essence absorbed: BLUE)
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 950 -> 970 (Essence absorbed: CYAN)
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 950 -> 970 (Essence absorbed: CYAN)
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 970 -> 990 (Essence absorbed: BLUE)
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 970 -> 990 (Essence absorbed: BLUE)
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 990 -> 1010 (Essence absorbed: CYAN)
+[2025-12-14 13:03:32] [INFO] [EVENT] Score: 990 -> 1010 (Essence absorbed: CYAN)
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:32] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:33] [INFO] [EVENT] Score: 1010 -> 1030 (Essence absorbed: CYAN)
+[2025-12-14 13:03:33] [INFO] [EVENT] Score: 1010 -> 1030 (Essence absorbed: CYAN)
+[2025-12-14 13:03:33] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:33] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:03:33] [INFO] [EVENT] Health: 100 -> 90
+[2025-12-14 13:03:33] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=10, newHealth=90, oldHealth=100}, timestamp=1765713813749}
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:33] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:34] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:35] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:03:39] [INFO] [EVENT] Water State: Exiting water state
+[2025-12-14 13:03:39] [INFO] [EVENT] Earth State: Player now absorbs GREEN and BROWN essences
+[2025-12-14 13:03:40] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=10.0, powerUpType=Speed Boost}, timestamp=1765713820357}
+[2025-12-14 13:03:40] [INFO] [COLLISION] Player collected power-up: Speed Boost
+[2025-12-14 13:03:43] [INFO] [EVENT] Health: 90 -> 80
+[2025-12-14 13:03:43] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=10, newHealth=80, oldHealth=90}, timestamp=1765713823381}
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:43] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:44] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:03:45] [INFO] [EVENT] Earth State: Exiting earth state
+[2025-12-14 13:03:45] [INFO] [EVENT] Air State: Player now absorbs WHITE and YELLOW essences
+[2025-12-14 13:03:45] [INFO] [EVENT] Score: 1030 -> 1050 (Essence absorbed: WHITE)
+[2025-12-14 13:03:45] [INFO] [EVENT] Score: 1030 -> 1050 (Essence absorbed: WHITE)
+[2025-12-14 13:03:45] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:03:45] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:03:47] [INFO] [EVENT] Health: 80 -> 70
+[2025-12-14 13:03:47] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=10, newHealth=70, oldHealth=80}, timestamp=1765713827125}
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:47] [INFO] [EVENT] Score: 1050 -> 1070 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:47] [INFO] [EVENT] Score: 1050 -> 1070 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:47] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:47] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:47] [INFO] [EVENT] Score: 1070 -> 1090 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:47] [INFO] [EVENT] Score: 1070 -> 1090 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:47] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:47] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:48] [INFO] [EVENT] Score: 1090 -> 1110 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:48] [INFO] [EVENT] Score: 1090 -> 1110 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:48] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:48] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:03:48] [INFO] [EVENT] Health: 70 -> 60
+[2025-12-14 13:03:48] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=10, newHealth=60, oldHealth=70}, timestamp=1765713828837}
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:48] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:49] [INFO] [EVENT] Score: 1110 -> 1130 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:49] [INFO] [EVENT] Score: 1110 -> 1130 (Essence absorbed: YELLOW)
+[2025-12-14 13:03:49] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:49] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:03:50] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:03:52] [INFO] [EVENT] Score: 1130 -> 1150 (Essence absorbed: WHITE)
+[2025-12-14 13:03:52] [INFO] [EVENT] Score: 1130 -> 1150 (Essence absorbed: WHITE)
+[2025-12-14 13:03:52] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:03:52] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:03:55] [INFO] [EVENT] Air State: Exiting air state
+[2025-12-14 13:03:55] [INFO] [EVENT] Earth State: Player now absorbs GREEN and BROWN essences
+[2025-12-14 13:03:56] [INFO] [EVENT] Score: 1150 -> 1170 (Essence absorbed: GREEN)
+[2025-12-14 13:03:56] [INFO] [EVENT] Score: 1150 -> 1170 (Essence absorbed: GREEN)
+[2025-12-14 13:03:56] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:03:56] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:03:57] [INFO] [EVENT] Score: 1170 -> 1190 (Essence absorbed: GREEN)
+[2025-12-14 13:03:57] [INFO] [EVENT] Score: 1170 -> 1190 (Essence absorbed: GREEN)
+[2025-12-14 13:03:57] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:03:57] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:03:58] [INFO] [EVENT] Score: 1190 -> 1210 (Essence absorbed: GREEN)
+[2025-12-14 13:03:58] [INFO] [EVENT] Score: 1190 -> 1210 (Essence absorbed: GREEN)
+[2025-12-14 13:03:58] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:03:58] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:03:58] [INFO] [EVENT] Health: 60 -> 50
+[2025-12-14 13:03:58] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=10, newHealth=50, oldHealth=60}, timestamp=1765713838085}
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:58] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:59] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:59] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:03:59] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [COLLISION] Player hit Static Barrier - Damage: 10
+[2025-12-14 13:03:59] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:04:00] [INFO] [EVENT] Score: 1210 -> 1230 (Essence absorbed: GREEN)
+[2025-12-14 13:04:00] [INFO] [EVENT] Score: 1210 -> 1230 (Essence absorbed: GREEN)
+[2025-12-14 13:04:00] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:04:00] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:04:03] [INFO] [EVENT] Score: 1230 -> 1250 (Essence absorbed: GREEN)
+[2025-12-14 13:04:03] [INFO] [EVENT] Score: 1230 -> 1250 (Essence absorbed: GREEN)
+[2025-12-14 13:04:03] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:04:03] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:04:03] [INFO] [EVENT] Score: 1250 -> 1270 (Essence absorbed: GREEN)
+[2025-12-14 13:04:03] [INFO] [EVENT] Score: 1250 -> 1270 (Essence absorbed: GREEN)
+[2025-12-14 13:04:03] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:04:03] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:04:03] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=15.0, powerUpType=Shield}, timestamp=1765713843381}
+[2025-12-14 13:04:03] [INFO] [COLLISION] Player collected power-up: Shield
+[2025-12-14 13:04:07] [INFO] [EVENT] Earth State: Exiting earth state
+[2025-12-14 13:04:07] [INFO] [EVENT] Water State: Player now absorbs BLUE and CYAN essences
+[2025-12-14 13:04:08] [INFO] [EVENT] Water State: Exiting water state
+[2025-12-14 13:04:08] [INFO] [EVENT] Fire State: Player now absorbs RED and ORANGE essences
+[2025-12-14 13:04:11] [INFO] [EVENT] Score: 1270 -> 1290 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:11] [INFO] [EVENT] Score: 1270 -> 1290 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:11] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:11] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:11] [INFO] [EVENT] Score: 1290 -> 1310 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:11] [INFO] [EVENT] Score: 1290 -> 1310 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:11] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:11] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:11] [INFO] [EVENT] Score: 1310 -> 1330 (Essence absorbed: RED)
+[2025-12-14 13:04:11] [INFO] [EVENT] Score: 1310 -> 1330 (Essence absorbed: RED)
+[2025-12-14 13:04:11] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:04:11] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:04:12] [INFO] [EVENT] Score: 1330 -> 1350 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:12] [INFO] [EVENT] Score: 1330 -> 1350 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:12] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:12] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:13] [INFO] [EVENT] Score: 1350 -> 1370 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:13] [INFO] [EVENT] Score: 1350 -> 1370 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:13] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:13] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:14] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=15.0, powerUpType=Score x2}, timestamp=1765713854422}
+[2025-12-14 13:04:14] [INFO] [COLLISION] Player collected power-up: Score x2
+[2025-12-14 13:04:15] [INFO] [EVENT] Score: 1370 -> 1410 (Essence absorbed: RED)
+[2025-12-14 13:04:15] [INFO] [EVENT] Score: 1370 -> 1410 (Essence absorbed: RED)
+[2025-12-14 13:04:15] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:04:15] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:04:15] [INFO] [EVENT] Score: 1410 -> 2210 (Recipe completed: Deep Transmutation)
+[2025-12-14 13:04:15] [INFO] [EVENT] Score: 1410 -> 2210 (Recipe completed: Deep Transmutation)
+[2025-12-14 13:04:15] [INFO] [EVENT] RECIPE_COMPLETED: GameEvent{type=RECIPE_COMPLETED, data={recipeName=Deep Transmutation, bonusPoints=400}, timestamp=1765713855333}
+[2025-12-14 13:04:41] [INFO] [EVENT] Score: 2210 -> 2235 (Essence absorbed: RED)
+[2025-12-14 13:04:41] [INFO] [EVENT] Score: 2210 -> 2235 (Essence absorbed: RED)
+[2025-12-14 13:04:41] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:04:41] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:04:42] [INFO] [EVENT] Health: 50 -> 35
+[2025-12-14 13:04:42] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=15, newHealth=35, oldHealth=50}, timestamp=1765713882085}
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=8.0, powerUpType=Multi-Absorb}, timestamp=1765713882086}
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player collected power-up: Multi-Absorb
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:42] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:43] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:04:45] [INFO] [EVENT] Health: 35 -> 20
+[2025-12-14 13:04:45] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=15, newHealth=20, oldHealth=35}, timestamp=1765713885125}
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:45] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:04:46] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:04:51] [INFO] [EVENT] Score: 2235 -> 2260 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:51] [INFO] [EVENT] Score: 2235 -> 2260 (Essence absorbed: ORANGE)
+[2025-12-14 13:04:51] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:04:51] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:05:10] [INFO] [EVENT] Fire State: Exiting fire state
+[2025-12-14 13:05:10] [INFO] [EVENT] Water State: Player now absorbs BLUE and CYAN essences
+[2025-12-14 13:05:11] [INFO] [EVENT] Score: 2260 -> 2285 (Essence absorbed: BLUE)
+[2025-12-14 13:05:11] [INFO] [EVENT] Score: 2260 -> 2285 (Essence absorbed: BLUE)
+[2025-12-14 13:05:11] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:11] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:13] [INFO] [EVENT] Score: 2285 -> 2310 (Essence absorbed: BLUE)
+[2025-12-14 13:05:13] [INFO] [EVENT] Score: 2285 -> 2310 (Essence absorbed: BLUE)
+[2025-12-14 13:05:13] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:13] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:14] [INFO] [EVENT] Score: 2310 -> 2335 (Essence absorbed: BLUE)
+[2025-12-14 13:05:14] [INFO] [EVENT] Score: 2310 -> 2335 (Essence absorbed: BLUE)
+[2025-12-14 13:05:14] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:14] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:15] [INFO] [EVENT] Water State: Exiting water state
+[2025-12-14 13:05:15] [INFO] [EVENT] Fire State: Player now absorbs RED and ORANGE essences
+[2025-12-14 13:05:17] [INFO] [EVENT] Score: 2335 -> 2360 (Essence absorbed: RED)
+[2025-12-14 13:05:17] [INFO] [EVENT] Score: 2335 -> 2360 (Essence absorbed: RED)
+[2025-12-14 13:05:17] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:05:17] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:05:17] [INFO] [EVENT] Score: 2360 -> 2385 (Essence absorbed: RED)
+[2025-12-14 13:05:17] [INFO] [EVENT] Score: 2360 -> 2385 (Essence absorbed: RED)
+[2025-12-14 13:05:17] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:05:17] [INFO] [ENTITY] Essence RED absorbed by 6e7cc3c4
+[2025-12-14 13:05:19] [INFO] [EVENT] Fire State: Exiting fire state
+[2025-12-14 13:05:19] [INFO] [EVENT] Water State: Player now absorbs BLUE and CYAN essences
+[2025-12-14 13:05:20] [INFO] [EVENT] Score: 2385 -> 2410 (Essence absorbed: BLUE)
+[2025-12-14 13:05:20] [INFO] [EVENT] Score: 2385 -> 2410 (Essence absorbed: BLUE)
+[2025-12-14 13:05:20] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:20] [INFO] [ENTITY] Essence BLUE absorbed by 6e7cc3c4
+[2025-12-14 13:05:26] [INFO] [EVENT] Water State: Exiting water state
+[2025-12-14 13:05:26] [INFO] [EVENT] Fire State: Player now absorbs RED and ORANGE essences
+[2025-12-14 13:05:27] [INFO] [EVENT] Score: 2410 -> 2435 (Essence absorbed: ORANGE)
+[2025-12-14 13:05:27] [INFO] [EVENT] Score: 2410 -> 2435 (Essence absorbed: ORANGE)
+[2025-12-14 13:05:27] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:05:27] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:05:29] [INFO] [EVENT] Score: 2435 -> 2460 (Essence absorbed: ORANGE)
+[2025-12-14 13:05:29] [INFO] [EVENT] Score: 2435 -> 2460 (Essence absorbed: ORANGE)
+[2025-12-14 13:05:29] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:05:29] [INFO] [ENTITY] Essence ORANGE absorbed by 6e7cc3c4
+[2025-12-14 13:05:32] [INFO] [EVENT] Fire State: Exiting fire state
+[2025-12-14 13:05:32] [INFO] [EVENT] Earth State: Player now absorbs GREEN and BROWN essences
+[2025-12-14 13:05:33] [INFO] [EVENT] Score: 2460 -> 2485 (Essence absorbed: GREEN)
+[2025-12-14 13:05:33] [INFO] [EVENT] Score: 2460 -> 2485 (Essence absorbed: GREEN)
+[2025-12-14 13:05:33] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:33] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:33] [INFO] [EVENT] Score: 2485 -> 2510 (Essence absorbed: GREEN)
+[2025-12-14 13:05:33] [INFO] [EVENT] Score: 2485 -> 2510 (Essence absorbed: GREEN)
+[2025-12-14 13:05:33] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:33] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:34] [INFO] [EVENT] Score: 2510 -> 2540 (Essence absorbed: BROWN)
+[2025-12-14 13:05:34] [INFO] [EVENT] Score: 2510 -> 2540 (Essence absorbed: BROWN)
+[2025-12-14 13:05:34] [INFO] [ENTITY] Essence BROWN absorbed by 6e7cc3c4
+[2025-12-14 13:05:34] [INFO] [ENTITY] Essence BROWN absorbed by 6e7cc3c4
+[2025-12-14 13:05:35] [INFO] [EVENT] Score: 2540 -> 2565 (Essence absorbed: GREEN)
+[2025-12-14 13:05:35] [INFO] [EVENT] Score: 2540 -> 2565 (Essence absorbed: GREEN)
+[2025-12-14 13:05:35] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:35] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:39] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=12.0, powerUpType=Magnet}, timestamp=1765713939637}
+[2025-12-14 13:05:39] [INFO] [COLLISION] Player collected power-up: Magnet
+[2025-12-14 13:05:39] [INFO] [EVENT] Score: 2565 -> 2590 (Essence absorbed: GREEN)
+[2025-12-14 13:05:39] [INFO] [EVENT] Score: 2565 -> 2590 (Essence absorbed: GREEN)
+[2025-12-14 13:05:39] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:39] [INFO] [ENTITY] Essence GREEN absorbed by 6e7cc3c4
+[2025-12-14 13:05:42] [INFO] [EVENT] Earth State: Exiting earth state
+[2025-12-14 13:05:42] [INFO] [EVENT] Water State: Player now absorbs BLUE and CYAN essences
+[2025-12-14 13:05:42] [INFO] [EVENT] Score: 2590 -> 2615 (Essence absorbed: CYAN)
+[2025-12-14 13:05:42] [INFO] [EVENT] Score: 2590 -> 2615 (Essence absorbed: CYAN)
+[2025-12-14 13:05:42] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:42] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:42] [INFO] [EVENT] Score: 2615 -> 2640 (Essence absorbed: CYAN)
+[2025-12-14 13:05:42] [INFO] [EVENT] Score: 2615 -> 2640 (Essence absorbed: CYAN)
+[2025-12-14 13:05:43] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:43] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:44] [INFO] [EVENT] POWERUP_COLLECTED: GameEvent{type=POWERUP_COLLECTED, data={duration=15.0, powerUpType=Shield}, timestamp=1765713944629}
+[2025-12-14 13:05:44] [INFO] [COLLISION] Player collected power-up: Shield
+[2025-12-14 13:05:45] [INFO] [EVENT] Score: 2640 -> 2665 (Essence absorbed: CYAN)
+[2025-12-14 13:05:45] [INFO] [EVENT] Score: 2640 -> 2665 (Essence absorbed: CYAN)
+[2025-12-14 13:05:45] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:45] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:49] [INFO] [EVENT] Health: 20 -> 13
+[2025-12-14 13:05:49] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=7, newHealth=13, oldHealth=20}, timestamp=1765713949237}
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [EVENT] Player: Damage blocked (invincible or shielded)
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:49] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:05:50] [INFO] [EVENT] Score: 2665 -> 2690 (Essence absorbed: CYAN)
+[2025-12-14 13:05:50] [INFO] [EVENT] Score: 2665 -> 2690 (Essence absorbed: CYAN)
+[2025-12-14 13:05:50] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:50] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:50] [INFO] [EVENT] Player: Invincibility ended
+[2025-12-14 13:05:51] [INFO] [EVENT] Score: 2690 -> 2715 (Essence absorbed: CYAN)
+[2025-12-14 13:05:51] [INFO] [EVENT] Score: 2690 -> 2715 (Essence absorbed: CYAN)
+[2025-12-14 13:05:51] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:51] [INFO] [ENTITY] Essence CYAN absorbed by 6e7cc3c4
+[2025-12-14 13:05:53] [INFO] [EVENT] Water State: Exiting water state
+[2025-12-14 13:05:53] [INFO] [EVENT] Fire State: Player now absorbs RED and ORANGE essences
+[2025-12-14 13:06:07] [INFO] [EVENT] Fire State: Exiting fire state
+[2025-12-14 13:06:07] [INFO] [EVENT] Earth State: Player now absorbs GREEN and BROWN essences
+[2025-12-14 13:06:07] [INFO] [EVENT] Earth State: Exiting earth state
+[2025-12-14 13:06:07] [INFO] [EVENT] Air State: Player now absorbs WHITE and YELLOW essences
+[2025-12-14 13:06:08] [INFO] [EVENT] Score: 2715 -> 2745 (Essence absorbed: YELLOW)
+[2025-12-14 13:06:08] [INFO] [EVENT] Score: 2715 -> 2745 (Essence absorbed: YELLOW)
+[2025-12-14 13:06:08] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:06:08] [INFO] [ENTITY] Essence YELLOW absorbed by 6e7cc3c4
+[2025-12-14 13:06:08] [INFO] [EVENT] Score: 2745 -> 2770 (Essence absorbed: WHITE)
+[2025-12-14 13:06:08] [INFO] [EVENT] Score: 2745 -> 2770 (Essence absorbed: WHITE)
+[2025-12-14 13:06:08] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:06:08] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:06:08] [INFO] [EVENT] Score: 2770 -> 2795 (Essence absorbed: WHITE)
+[2025-12-14 13:06:08] [INFO] [EVENT] Score: 2770 -> 2795 (Essence absorbed: WHITE)
+[2025-12-14 13:06:08] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:06:08] [INFO] [ENTITY] Essence WHITE absorbed by 6e7cc3c4
+[2025-12-14 13:06:27] [INFO] [EVENT] Health: 13 -> 0
+[2025-12-14 13:06:27] [INFO] [EVENT] PLAYER_DAMAGED: GameEvent{type=PLAYER_DAMAGED, data={damage=15, newHealth=0, oldHealth=13}, timestamp=1765713987061}
+[2025-12-14 13:06:27] [INFO] [EVENT] PLAYER_DIED: GameEvent{type=PLAYER_DIED, data={finalScore=2795, playerId=6e7cc3c4}, timestamp=1765713987062}
+[2025-12-14 13:06:27] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
+[2025-12-14 13:06:27] [INFO] [COLLISION] Player hit Moving Hazard - Damage: 15
