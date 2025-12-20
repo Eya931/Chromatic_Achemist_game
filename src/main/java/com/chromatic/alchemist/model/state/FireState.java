@@ -17,13 +17,13 @@ public class FireState implements ElementalState {
     
     private static final String STATE_NAME = "FIRE";
     private static final String[] COMPATIBLE_COLORS = {"RED", "ORANGE"};
-    private static final String STATE_COLOR = "#FF4500"; // OrangeRed
-    private static final String GLOW_COLOR = "#FF6347"; // Tomato
+    private static final String STATE_COLOR = "#FF4500"; 
+    private static final String GLOW_COLOR = "#FF6347"; 
     private static final double SPEED_MODIFIER = 1.2;
     
     // Ability cooldown tracking
     private double abilityCooldown = 0;
-    private static final double ABILITY_COOLDOWN_TIME = 5.0; // seconds
+    private static final double ABILITY_COOLDOWN_TIME = 5.0;
     
     @Override
     public String getStateName() {

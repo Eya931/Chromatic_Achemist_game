@@ -5,7 +5,7 @@ import com.chromatic.alchemist.model.entity.Player;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
+/*
  * Recipe class representing an alchemical recipe objective.
  * Players complete recipes by collecting specific combinations of essences.
  */

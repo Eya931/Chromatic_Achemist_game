@@ -17,13 +17,13 @@ public class AirState implements ElementalState {
     
     private static final String STATE_NAME = "AIR";
     private static final String[] COMPATIBLE_COLORS = {"WHITE", "YELLOW"};
-    private static final String STATE_COLOR = "#F0F8FF"; // AliceBlue
-    private static final String GLOW_COLOR = "#FFD700"; // Gold
+    private static final String STATE_COLOR = "#F0F8FF"; 
+    private static final String GLOW_COLOR = "#FFD700"; 
     private static final double SPEED_MODIFIER = 1.4;
     
     // Ability cooldown tracking
     private double abilityCooldown = 0;
-    private static final double ABILITY_COOLDOWN_TIME = 3.0; // seconds
+    private static final double ABILITY_COOLDOWN_TIME = 3.0; 
     
     @Override
     public String getStateName() {
@@ -87,7 +87,7 @@ public class AirState implements ElementalState {
             // Dash: Quick directional dash
             GameLogger.getInstance().logGameEvent("Air Ability", 
                 "DASH activated - Quick dash in movement direction");
-            player.performDash(200.0); // 200 pixel dash
+            player.performDash(200.0); // 200 pixel 
             abilityCooldown = ABILITY_COOLDOWN_TIME;
         } else {
             GameLogger.getInstance().logGameEvent("Air Ability", 

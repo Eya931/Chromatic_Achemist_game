@@ -38,6 +38,7 @@ public class LevelGenerator {
     /**
      * Level 1: Tutorial Chamber
      * Simple layout with basic essences, no obstacles.
+     * Introduces Fire element essences.
      */
 
     private static Level generateLevel1(double width, double height, int difficulty) {

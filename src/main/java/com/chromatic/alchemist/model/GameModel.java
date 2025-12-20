@@ -2,7 +2,6 @@ package com.chromatic.alchemist.model;
 
 import com.chromatic.alchemist.logging.GameLogger;
 import com.chromatic.alchemist.model.composite.*;
-import com.chromatic.alchemist.model.decorator.*;
 import com.chromatic.alchemist.model.entity.Player;
 import com.chromatic.alchemist.model.observer.GameEvent;
 import com.chromatic.alchemist.model.observer.GameEventManager;

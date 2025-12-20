@@ -1,8 +1,6 @@
 package com.chromatic.alchemist.model;
 
 import com.chromatic.alchemist.model.composite.*;
-import com.chromatic.alchemist.model.entity.Player;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,6 +1,5 @@
 package com.chromatic.alchemist;
 
-import com.chromatic.alchemist.controller.GameController;
 import com.chromatic.alchemist.logging.GameLogger;
 import com.chromatic.alchemist.view.GameApplication;
 import javafx.application.Application;

@@ -17,13 +17,13 @@ public class EarthState implements ElementalState {
     
     private static final String STATE_NAME = "EARTH";
     private static final String[] COMPATIBLE_COLORS = {"GREEN", "BROWN"};
-    private static final String STATE_COLOR = "#228B22"; // ForestGreen
-    private static final String GLOW_COLOR = "#8B4513"; // SaddleBrown
+    private static final String STATE_COLOR = "#228B22"; 
+    private static final String GLOW_COLOR = "#8B4513"; 
     private static final double SPEED_MODIFIER = 0.8;
     
     // Ability cooldown tracking
     private double abilityCooldown = 0;
-    private static final double ABILITY_COOLDOWN_TIME = 10.0; // seconds
+    private static final double ABILITY_COOLDOWN_TIME = 10.0; //
     
     @Override
     public String getStateName() {
@@ -84,7 +84,6 @@ public class EarthState implements ElementalState {
     @Override
     public void useSpecialAbility(Player player) {
         if (abilityCooldown <= 0) {
-            // Shield: Damage immunity
             GameLogger.getInstance().logGameEvent("Earth Ability", 
                 "SHIELD activated - Damage immunity for 4 seconds");
             player.activateShield(4.0);
