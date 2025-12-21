@@ -62,8 +62,7 @@
 ## 🏗️ Design Patterns
 
 ### 🔁 State Pattern:    
-The **State Pattern** controls the player's behavior based on their current **elemental state**.  
-Each state modifies movement speed, absorption behavior, and provides a unique ability.
+The **State Pattern** controls the player's behavior based on their current **elemental state**. Each state modifies movement speed, absorption behavior, and provides a unique ability.
 
 ### 🎨 Decorator Pattern
 The **Decorator Pattern** is used to dynamically enhance player abilities through **stackable power-ups**.
