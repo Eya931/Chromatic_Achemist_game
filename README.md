@@ -61,28 +61,18 @@
 
 ## 🏗️ Design Patterns
 
-**State Pattern:**   The Player's elemental state determines behavior:
-    - **FireState** - Absorbs RED/ORANGE, Speed: 1.2x, Ability: BURST (2x speed burst)
-    - **WaterState** - Absorbs BLUE/CYAN, Speed: 1.0x, Ability: FLOW (phase through obstacles)
-    - **EarthState** - Absorbs GREEN/BROWN, Speed: 0.8x, Ability: SHIELD (temporary invincibility)
-    - **AirState** - Absorbs WHITE/YELLOW, Speed: 1.4x, Ability: DASH (quick dash movement)
+### 🔁 State Pattern:    
+The **State Pattern** controls the player's behavior based on their current **elemental state**.  
+Each state modifies movement speed, absorption behavior, and provides a unique ability.
 
-**Decorator Pattern:** Power-ups wrap player abilities with stackable effects:
-    - **SpeedBoostDecorator** - 1.5x movement speed
-    - **ShieldDecorator** - 50% damage reduction
-    - **MagnetDecorator** - Attracts nearby essences
-    - **MultiAbsorbDecorator** - Absorb multiple essences at once
-    - **ScoreMultiplierDecorator** - 2x score multiplier
-    - **RangeBoostDecorator** - 2x absorption range
+### 🎨 Decorator Pattern
+The **Decorator Pattern** is used to dynamically enhance player abilities through **stackable power-ups**.
 
-**Composite Pattern:** Defines the interface for all chamber components in the game. Chambers can contain:
-    - **SimpleChamber** (Leaf) - Contains essences, obstacles, and power-ups
-    - **CompoundChamber** (Composite) - Contains child chambers + its own content
+### 🧩 Composite Pattern
+The **Composite Pattern** represents the hierarchical structure of game chambers.
 
-**Observer Pattern:** Event-driven game notifications:
-    - **GameEventManager** (Subject/Singleton) - Manages subscriptions
-    - **GameObserver** (Observer Interface) - Receives notifications
-    - **GameEvent** - Event data with type and payload
+### 📣 Observer Pattern
+The **Observer Pattern** enables an **event-driven architecture** for game notifications.
 
 ---
 
