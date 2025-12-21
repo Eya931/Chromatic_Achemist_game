@@ -3,7 +3,6 @@
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![JavaFX](https://img.shields.io/badge/JavaFX-17.0.2-blue)
 ![Maven](https://img.shields.io/badge/Maven-3.8+-red)
-![License](https://img.shields.io/badge/License-MIT-green)
 
 ---
 
